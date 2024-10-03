@@ -1,0 +1,103 @@
+.product-list-container-sarajishvili {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .filters-sarajishvili {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .filters-sarajishvili button {
+    margin-right: 20px;
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #333; /* Default color */
+    font-family: "STIX Two Text", serif;
+  }
+
+  .product-list-container-sarajishvili h1 {
+    font-size: 50px;
+    font-family: "STIX Two Text", serif;
+    font-weight: 200;
+    color: rgba(114, 51, 38, 1);
+    margin-bottom: 2rem;
+  }
+  
+  .filters-sarajishvili button.active {
+    color: rgba(114, 51, 38, 1);
+  }
+  
+  .filters-sarajishvili button:hover {
+    color: rgba(114, 51, 38, 1);
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    text-align: center;
+  }
+  
+  .product-image-container {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .product-info {
+    margin-top: 15px;
+  }
+  
+  .product-info h3 {
+    margin: 1px 0;
+    text-align: left;
+    font-family: "STIX Two Text", serif;
+    font-weight: 200;
+  }
+  
+  .product-info p {
+    color: #777;
+    text-align: left;
+    font-family: "STIX Two Text", serif;
+
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-list-container-sarajishvili{
+      margin-top: 700px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .product-list-container-sarajishvili{
+      margin-top: 700px;
+    }
+  }
+  

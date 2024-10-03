@@ -1,0 +1,145 @@
+.main-content-container {
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30rem;
+}
+
+.main-content-container h1 {
+    font-size: 3.5rem;
+    margin-top: 100px;
+    color: rgba(114, 51, 38, 1);
+    font-family: "STIX Two Text", serif;
+    font-weight: 250;
+}
+
+.main-content-container h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: rgba(114, 51, 38, 1);
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+}
+
+.main-see-more-button {
+    background-color: transparent; /* Green */
+    border: none;
+    color: rgba(114, 51, 38, 1);
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.main-see-more-button:hover {
+    background-color: rgba(114, 51, 38, 1);
+    color: white;
+}
+  
+.main-content-container p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    width: auto;
+}
+
+.main-scrolling-image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto; /* Adjust height if needed */
+}
+
+.main-scrolling-image {
+    display: flex;
+    flex-direction: row;
+    width: calc(200%); /* Double the width to accommodate the duplicated images */
+    animation: scrollHorizontal 200s linear infinite; /* Adjust the duration for scroll speed */
+}
+
+.main-scrolling-image img {
+    width: auto;
+    height: 100px; /* Set your desired height */
+    flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+.main-carousel-wrapper {
+    overflow: hidden;
+    width: 100%; /* Full container width */
+    height: 280px; /* Set a fixed height for the carousel */
+    position: relative;
+    margin-top: -15rem;
+  }
+  
+  .main-carousel {
+    display: flex;
+    animation: scroll-left 50s linear infinite;
+  }
+
+.main-vessel-image {
+    position: absolute;
+    left: 50%;
+    transform: translateX(70%) translateY(-400%);
+    z-index: 9999;
+    /* Resize properties */
+    max-width: 250px;  /* Adjust to your preferred size */
+    max-height: 100px; /* Adjust to your preferred size */
+    object-fit: contain; /* Ensure the image doesn't get cut off */
+}
+
+.main-vessel-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@keyframes scrollHorizontal {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-content-container {
+        width: 90%;
+    }
+    .main-content-container p {
+        font-size: 25px;
+    }
+
+   
+}
+
+@media (max-width: 768px) {
+    .main-content-container {
+        width: 90%;
+    }
+    .main-content-container p {
+        font-size: 20px;
+    }
+
+    .main-vessel-image {
+        transform: translateX(0%) translateY(-250%);
+        max-width: 190px;  /* Adjust to your preferred size */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content-container {
+        width: 90%;
+    }
+    .main-content-container p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,71 @@
+.centered-container-sarajishvili {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+.centered-container-sarajishvili h1 {
+    font-size: 3.5rem;
+    margin-top: 100px;
+    color: rgba(114, 51, 38, 1);
+    font-family: "STIX Two Text", serif;
+    font-weight: 250;
+}
+
+.centered-container-sarajishvili h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: rgba(114, 51, 38, 1);
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+
+}
+
+.centered-container-sarajishvili p {
+    margin: 10px 0;
+    font-size: 1rem;
+    margin-top: 100px;
+    width: auto;
+
+}
+
+
+@media (max-width: 1200px) {
+ 
+    .centered-container-sarajishvili {
+        width: 90%;
+    }
+    .centered-container-sarajishvili p{
+        font-size:25px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .centered-container-sarajishvili {
+        width: 90%;
+    }
+    .centered-container-sarajishvili p{
+        font-size: 20px;
+    }
+
+  
+
+}
+
+/* Media query for screens smaller than 480px (e.g., small mobile devices) */
+@media (max-width: 480px) {
+ 
+    .centered-container-sarajishvili {
+        width: 90%;
+    }
+    .centered-container-sarajishvili p{
+        font-size:15px;
+    }
+}
+
+

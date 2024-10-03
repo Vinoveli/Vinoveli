@@ -1,0 +1,185 @@
+/* For the first image container */
+/* For the first image container */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-top: 10rem;
+    overflow: hidden; /* Ensures the overlay fits within the container */
+}
+
+/* Dark overlay for the background image */
+.image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Darken the image */
+    z-index: 1; /* Ensure this is above the image but below content */
+}
+
+/* Adjust background image positioning */
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0; /* Ensures the image stays below the dark overlay */
+}
+
+/* Overlay content */
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 16px;
+    color: white;
+    z-index: 2; /* Ensure the content is above the dark overlay */
+}
+
+/* Other styles remain unchanged */
+
+
+/* Left content styling */
+.left-content {
+    flex: 1;
+    max-width: 40%;
+}
+
+.left-content h1 {
+    margin-bottom: 1rem;
+    font-family: "STIX Two Text", serif;
+    font-size: 55px;
+    font-weight: 200;
+}
+
+.left-content p {
+    margin-bottom: 1rem;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+}
+
+.left-content select {
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    background-color: white;
+    font-family: "STIX Two Text", serif;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+/* Right content styling */
+.right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* This ensures vertical centering */
+}
+
+.right-image {
+    width: 100%;
+    max-width: 650px; /* Adjust the max width as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    object-fit: contain; /* Prevents the image from being stretched or cropped */
+}
+
+/* For the second image container */
+.image-container2 {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+}
+
+
+/* Aligning the overlay to the bottom-left corner */
+.overlay-content-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 1); /* Transparent white background */
+    padding: 3rem;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    max-width: 600px;
+    z-index: 1000;
+
+}
+
+.overlay-content-bottom h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem; /* Adjust the size of the title */
+    font-family: "STIX Two Text", serif;
+    color: rgba(114, 51, 38, 1);
+    font-weight: 200;
+
+
+}
+
+.overlay-content-bottom p {
+    font-family: "STIX Two Text", serif;
+
+}
+
+.logo-image {
+    width: 100px; /* Adjust the logo size */
+    height: auto;
+}
+
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .overlay-content {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        text-align: center;
+    }
+
+    .left-content {
+        max-width: 100%; /* Make the left content full width */
+    }
+
+    .right-image {
+        max-width: 100%; /* Make the image take up the full width on smaller screens */
+    }
+
+    .overlay-content-bottom {
+        width: 80%; /* Make the overlay take up full width on smaller screens */
+        padding: 0;
+        margin-left: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+
+    }
+
+    .overlay-content-bottom h1 {
+        font-size: 1.8rem; /* Reduce the font size on smaller screens */
+    margin-top: 1rem;
+    padding: 0;
+
+    }
+
+    .logo-image {
+        width: 120px; /* Adjust the logo size on smaller screens */
+        margin-top: 1rem;
+    }
+
+
+ 
+}

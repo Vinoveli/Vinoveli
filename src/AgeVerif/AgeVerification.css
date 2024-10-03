@@ -1,0 +1,89 @@
+.age-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Ensure it's above the navbar */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.fade-out {
+    opacity: 0; /* Fade out effect */
+}
+
+.age-popup-content {
+    position: relative;
+}
+
+/* Existing CSS styles... */
+
+  
+  .age-popup-content {
+    position: relative;
+  }
+  
+  .age-popup-image {
+    width: 100vw; /* Full screen width */
+    height: 100vh; /* Full screen height */
+    object-fit: cover; /* Cover the area without distortion */
+  }
+  
+  .age-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    text-align: center;
+  
+
+  }
+  .age-overlay-text h1{
+
+    font-family: "STIX Two Text", serif;
+    font-size: 100px;
+    font-weight: 100;
+
+  }
+
+  .age-button-container {
+    display: flex; /* Ensure it's a flex container */
+    gap: 1.5rem; /* Increase gap between buttons */
+    margin-top: 20px;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically if needed */
+  }
+  
+  
+  .age-button-container button {
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    color: rgba(123, 53, 38, 1);
+    font-size: 20px;
+    cursor: pointer;
+    border: none; /* Remove border */
+    text-decoration: none; /* No text decoration */
+    outline: none; /* Remove outline when focused */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .age-button-container button:hover {
+    background-color: rgba(123, 53, 38, 1);
+    color: white; /* Change text color on hover */
+  }
+  
+  /* Additional styles to ensure no border or default styles on click */
+  .age-button-container button:active,
+  .age-button-container button:focus {
+    border: none; /* Ensure no border on click */
+    outline: none; /* Ensure no outline on focus */
+    box-shadow: none; /* Remove any shadow if present */
+  }
+  

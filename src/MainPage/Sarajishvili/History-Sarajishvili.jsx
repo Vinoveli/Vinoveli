@@ -23,7 +23,8 @@ const HistorySarajishvili = () => {
           width:'182px',
           marginTop:'5rem'
         }} />
-        <h1 style={{fontSize:'35px', textAlign:'left'}}>A LEGACY OF EXCELLENCE SINCE 1884 </h1>
+
+        <h1 style={{fontSize:'45px', textAlign:'left', fontFamily: '"Carattere", cursive'}}>A Legacy Of Excellence Since 1884 </h1>
        <p style={{ textAlign:'left', fontSize:'18px',}}>
      
 The history of Sarajishvili dates back to 1884 when David Sarajishvili established the first classical wine brandy-making technology in Georgia. After France, Georgia was the first country in the Russian Empire to officially produce and call it “cognac.” The factory, located in Tbilisi, produced its first product in 1887.

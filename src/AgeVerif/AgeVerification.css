@@ -1,89 +1,104 @@
 .age-popup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2000; /* Ensure it's above the navbar */
-    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000; /* Ensure it's above the navbar */
+  transition: opacity 0.5s ease; /* Smooth transition for opacity */
 }
 
 .fade-out {
-    opacity: 0; /* Fade out effect */
+  opacity: 0; /* Fade out effect */
 }
 
 .age-popup-content {
-    position: relative;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
 }
 
-/* Existing CSS styles... */
+.age-overlay-text {
+  color: rgba(123, 53, 38, 1);
 
-  
-  .age-popup-content {
-    position: relative;
-  }
-  
-  .age-popup-image {
-    width: 100vw; /* Full screen width */
-    height: 100vh; /* Full screen height */
-    object-fit: cover; /* Cover the area without distortion */
-  }
-  
-  .age-overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; /* Text color */
-    text-align: center;
-  
+  /* color: white; Text color */
+  text-align: left;
+  margin: auto;
+  max-width: 800px; /* Increase the width of the text */
+  width: 90%; /* Make it responsive */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
 
-  }
-  .age-overlay-text h1{
+.age-overlay-text img {
+  width: 120px;
+  margin-bottom: 20px;
+}
 
-    font-family: "STIX Two Text", serif;
-    font-size: 100px;
-    font-weight: 100;
+.age-overlay-text h1 {
+  font-family: "STIX Two Text", serif;
+  font-size: clamp(24px, 8vw, 100px); /* Responsive font size */
+  font-weight: 100;
+  margin-bottom: 20px;
+}
 
-  }
+.age-button-container {
+  display: flex; /* Ensure it's a flex container */
+  flex-wrap: wrap; /* Make it responsive */
+  gap: 1.5rem; /* Increase gap between buttons */
+  margin-top: 20px;
+  justify-content: flex-start; /* Align buttons to the left */
+}
 
-  .age-button-container {
-    display: flex; /* Ensure it's a flex container */
-    gap: 1.5rem; /* Increase gap between buttons */
-    margin-top: 20px;
-    justify-content: center; /* Center the buttons horizontally */
-    align-items: center; /* Center the buttons vertically if needed */
+.age-button-container button {
+  background-color: rgba(123, 53, 38, 1);
+  padding: 15px 30px;
+  border-radius: 10px;
+  color:white;
+  font-size: 1.25rem; /* Responsive font size */
+  cursor: pointer;
+  border: none; /* Remove border */
+  text-decoration: none; /* No text decoration */
+  outline: none; /* Remove outline when focused */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 150px;
+}
+
+
+
+.age-button-container button:active,
+.age-button-container button:focus {
+  border: none; /* Ensure no border on click */
+  outline: none; /* Ensure no outline on focus */
+  box-shadow: none; /* Remove any shadow if present */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .age-overlay-text h1 {
+    font-size: clamp(24px, 10vw, 80px);
   }
-  
-  
   .age-button-container button {
-    background-color: white;
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-    color: rgba(123, 53, 38, 1);
-    font-size: 20px;
-    cursor: pointer;
-    border: none; /* Remove border */
-    text-decoration: none; /* No text decoration */
-    outline: none; /* Remove outline when focused */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    padding: 12px 24px;
+    font-size: 1rem;
   }
-  
-  .age-button-container button:hover {
-    background-color: rgba(123, 53, 38, 1);
-    color: white; /* Change text color on hover */
+}
+
+@media (max-width: 480px) {
+  .age-overlay-text h1 {
+    font-size: clamp(20px, 12vw, 60px);
   }
-  
-  /* Additional styles to ensure no border or default styles on click */
-  .age-button-container button:active,
-  .age-button-container button:focus {
-    border: none; /* Ensure no border on click */
-    outline: none; /* Ensure no outline on focus */
-    box-shadow: none; /* Remove any shadow if present */
+  .age-button-container button {
+    padding: 10px 20px;
+    font-size: 0.875rem;
   }
-  
+  .age-overlay-text img {
+    width: 80px;
+  }
+}

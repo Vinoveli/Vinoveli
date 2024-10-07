@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './AgeVerification.css'; // Import CSS for styling
-import pic from '../assets/mainentrance.png'
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import Cookies from 'js-cookie'; // Import js-cookie
-
-
-
+import Emblem from '../assets/Emblem-Escarlet.png';
 
 const AgeVerificationPopup = ({ onClose }) => {
   const [isFading, setIsFading] = useState(false);
@@ -19,9 +16,8 @@ const AgeVerificationPopup = ({ onClose }) => {
     }
   }, [onClose]);
 
-
   const handleYesClick = () => {
-    Cookies.set('isOver18', 'true', { expires: 1 }); // Set the cookie for 30 days
+    Cookies.set('isOver18', 'true', { expires: 1 }); // Set the cookie for 1 day
     setIsFading(true); // Start fade-out
     setTimeout(() => {
       onClose(); // Close the popup after fade-out
@@ -32,16 +28,15 @@ const AgeVerificationPopup = ({ onClose }) => {
     navigate(-1); // Go back to the previous page
   };
 
-
   return (
     <div className={`age-popup-overlay ${isFading ? 'fade-out' : ''}`}>
       <div className="age-popup-content">
-        <img src={pic} alt="Background" className="age-popup-image" />
         <div className="age-overlay-text">
+          <img src={Emblem} alt="Emblem" />
           <h1>Are you under 21?</h1>
           <div className="age-button-container">
             <button onClick={handleYesClick}>Yes</button>
-            <button onClick={handleNoClick}>No</button> {/* Use handleNoClick here */}
+            <button onClick={handleNoClick}>No</button>
           </div>
         </div>
       </div>

@@ -22,9 +22,9 @@ const HistoryMarnaveli = () => {
           width:'182px',
           marginTop:'5rem'
         }} />
-        <h1 style={{fontSize:'35px', textAlign:'left'}}>Marnaveli - Combining Tradition with Modern Craft
+        <h1 style={{fontSize:'45px', textAlign:'left', fontFamily: '"Carattere", cursive'}}>Marnaveli - Combining Tradition with Modern Craft
         </h1>
-       <p style={{ textAlign:'left', fontSize:'20px'}} className='history-marnaveli-p'>
+       <p style={{ textAlign:'left', fontSize:'20px', }} className='history-marnaveli-p'>
        For over two decades, Marnaveli has been producing premium wines that blend Georgia’s ancient winemaking traditions with the best of modern techniques. By selecting only the finest grape varieties, Marnaveli ensures that every bottle reflects the unique qualities of Georgia’s diverse terroir. The winery is equipped with advanced technology that meets international standards, enabling the production of wines that uphold both heritage and innovation.
 
 Each year, Marnaveli crafts wines with great attention to detail, balancing centuries-old Georgian practices with modern winemaking methods. This approach allows the winery to maintain the authenticity of Georgian wine while delivering exceptional quality and consistency. Marnaveli’s wines, celebrated for their character and craftsmanship, are aged and refined in optimal conditions, ensuring that the final product meets the highest expectations.

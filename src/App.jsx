@@ -27,8 +27,8 @@ const App = () => {
   const portfolioRef = useRef(null);
   const productsRef = useRef(null);
   const distributionRef = useRef(null);
-  const footerRef = useRef(null);  // Ref for the footer/contact section
-  const [isPopupVisible, setPopupVisible] = useState(true); // State to manage popup visibility
+  const footerRef = useRef(null);  
+  const [isPopupVisible, setPopupVisible] = useState(true); 
 
   const handlePopupClose = () => {
     setPopupVisible(false); // Hide the popup when "Yes" is clicked

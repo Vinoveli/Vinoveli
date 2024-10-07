@@ -86,7 +86,7 @@ const SarajishviliProducts = () => {
   }, []);
 
   return (
-    <div className="product-list-container-sarajishvili" style={{ marginTop: isSmallScreen ? "25rem" : "5rem" }}>
+    <div className="product-list-container-sarajishvili" style={{ marginTop: isSmallScreen ? "40rem" : "5rem" }}>
       <h1>Products</h1>
       <div className="filters-sarajishvili">
         <button onClick={() => handleFilterChange("All")} className={filter === "All" ? "active" : ""}>All</button>

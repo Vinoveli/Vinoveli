@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'; // Import Link
 import RkatsiteliOak from '../assets/Rkatsiteli_Oak.png';
 import Kindzmarauli from '../assets/Kindzmarauli.png';
@@ -23,10 +23,19 @@ const products = [
 
 const MarnaveliProducts = () => {
   const [filter, setFilter] = useState("All");
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
 
   const handleFilterChange = (category) => {
     setFilter(category);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const filteredProducts =
     filter === "All"
@@ -36,7 +45,9 @@ const MarnaveliProducts = () => {
   return (
     <>
    
-    <div className="product-list-container-sarajishvili" style={{marginTop:"18rem"}}>
+    {/* <div className="product-list-container-sarajishvili" style={{marginTop:"40rem"}}> */}
+    <div className="product-list-container-sarajishvili" style={{ marginTop: isSmallScreen ? "40rem" : "5rem" }}>
+
       <h1>Products</h1>
       <div className="filters-sarajishvili">
         <button

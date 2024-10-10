@@ -4,13 +4,11 @@ import { useParams } from 'react-router-dom';
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { CiGlobe } from "react-icons/ci";
-
 import { GrLocationPin } from "react-icons/gr";
 
 import backgroundImage from '../assets/new-york-buildings-skyscrapers.jpg';
 import maBackground from '../assets/MA.jpeg';
 import riBackground from '../assets/Rhode-Island.webp';
-// import maBackground from '../assets/MA.jpeg';
 import msWalker from '../assets/UntitledDesign.png';
 import affinity from '../assets/partner3.png';
 
@@ -22,26 +20,25 @@ const Distributor = () => {
         'new-york': backgroundImage,
         'new-jersey': backgroundImage,
         'rhode-island': riBackground,
-        default: backgroundImage, // Default image if state is not found
+        default: backgroundImage,
     };
 
     const distributorInfo = {
-        massachusetts: [{
-            title: "Ms Walker",
-            content: "975 University Avenue Norwood, MA 02062",
-            phone: '617.776.6700',
-            logo: msWalker,
-            // email: 'email@example.com',
-            website: 'mswalker.com',
-        }],
+        massachusetts: [
+            {
+                title: "Ms Walker",
+                content: "975 University Avenue Norwood, MA 02062",
+                phone: '617.776.6700',
+                logo: msWalker,
+                website: 'mswalker.com',
+            },
+        ],
         'new-york': [
             {
                 title: "MsWalker",
                 content: "270 North Avenue. Suite 709 New Rochelle, NY 10801",
                 logo: msWalker,
-            phone: '617.776.6700',
-
-                // email: 'email@example.com',
+                phone: '617.776.6700',
                 website: 'mswalker.com',
             },
             {
@@ -50,48 +47,54 @@ const Distributor = () => {
                 logo: affinity,
                 email: 'info@affinitybrandsus.com',
                 website: 'affinitybrandsus.com/',
-                phone:'+1 (516) 385-1041'
-            }
+                phone: '+1 (516) 385-1041',
+            },
         ],
-        'new-jersey': [{
-            title: "New Jersey Distributor",
-            content: "270 North Avenue. Suite 709 New Rochelle, NY 10801",
-            phone: '914-235-5352',
-            logo: affinity,
-            // email: 'email@example.com',
-            website: 'mswalker.com',
-        }],
-        'rhode-island': [{
-            title: "Rhode Island Distributor",
-            content: "16 Commercial Way Warren, RI 02885",
-            phone: '401.247.0646',
-            logo: affinity,
-            // email: 'email@example.com',
-            website: 'mswalker.com',
-        }],
+        'new-jersey': [
+            {
+                title: "New Jersey Distributor",
+                content: "270 North Avenue. Suite 709 New Rochelle, NY 10801",
+                phone: '914-235-5352',
+                logo: affinity,
+                website: 'mswalker.com',
+            },
+        ],
+        'rhode-island': [
+            {
+                title: "Rhode Island Distributor",
+                content: "16 Commercial Way Warren, RI 02885",
+                phone: '401.247.0646',
+                logo: affinity,
+                website: 'mswalker.com',
+            },
+        ],
     };
 
-    const distributors = distributorInfo[statename] || [{
-        title: "Distributor Not Found",
-        content: "The requested state distributor information is not available.",
-        logo: null
-    }];
+    const distributors = distributorInfo[statename] || [
+        {
+            title: "Distributor Not Found",
+            content: "The requested state distributor information is not available.",
+            logo: null,
+        },
+    ];
 
     const currentBackground = backgroundImages[statename] || backgroundImages.default;
 
     const formatStateName = (state) => {
         if (!state) return "";
-        return state.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+        return state
+            .split('-')
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
     };
 
     return (
         <>
-           <div
+            <div
                 className="background-section"
                 style={{ backgroundImage: `url(${currentBackground})` }}
             >
-                    <div className="overlay-text-distributor">{formatStateName(statename)}</div>
-
+                <div className="overlay-text-distributor">{formatStateName(statename)}</div>
             </div>
             <div className="distributor-container">
                 {distributors.map((distributor, index) => (
@@ -105,21 +108,21 @@ const Distributor = () => {
                         )}
                         {/* <h1 className="distributor-title">{distributor.title}</h1> */}
                         <p className="distributor-content">
-                            <GrLocationPin style={{ color: 'brown' }} /> {distributor.content}
+                            <GrLocationPin /> {distributor.content}
                         </p>
                         {distributor.phone && (
                             <p className="distributor-content">
-                                <FiPhone style={{ color: 'brown' }} /> {distributor.phone}
+                                <FiPhone /> {distributor.phone}
                             </p>
                         )}
                         {distributor.email && (
                             <p className="distributor-content">
-                                <MdOutlineMailOutline style={{ color: 'brown' }} /> {distributor.email}
+                                <MdOutlineMailOutline /> {distributor.email}
                             </p>
                         )}
                         {distributor.website && (
                             <p className="distributor-content">
-                                <CiGlobe style={{ color: 'brown' }} /> {distributor.website}
+                                <CiGlobe /> {distributor.website}
                             </p>
                         )}
                     </div>

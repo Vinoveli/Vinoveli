@@ -31,7 +31,7 @@ const App = () => {
   const [isPopupVisible, setPopupVisible] = useState(true); 
 
   const handlePopupClose = () => {
-    setPopupVisible(false); // Hide the popup when "Yes" is clicked
+    setPopupVisible(false); 
   };
 
   const scrollToSection = (sectionRef) => {
@@ -52,7 +52,7 @@ const App = () => {
           portfolioRef={portfolioRef}
           productsRef={productsRef}
           distributionRef={distributionRef}
-          footerRef={footerRef}  // Pass the footer ref
+          footerRef={footerRef}  
         />
         <Routes>
           <Route

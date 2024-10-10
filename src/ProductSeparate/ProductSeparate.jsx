@@ -37,6 +37,13 @@ import Saperavi_Qvevri from '../assets/Saperavi_Qvevri.png'
 import VS from '../assets/sarajishviliWine/VS.jpg'
 import VSOP from '../assets/sarajishviliWine/VSOP.jpg'
 import XO from '../assets/sarajishviliWine/XO.jpg'
+import Saperavipdf from '../assets/saperavi.pdf'
+import SaperaviOakpdf from '../assets/saperavi-oak.pdf'
+import RkatsiteliOakpdf from '../assets/rkatsiteli-oak.pdf'
+import Rkatsitelipdf from '../assets/rkatsiteli.pdf'
+import KisiKhikhvipdf from '../assets/Kisi-khikhvi.pdf'
+import Kindzmaraulipdf from '../assets/kindzmarauli.pdf'
+
 
 
 
@@ -50,7 +57,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    pdf: RkatsiteliOakpdf,
   },
   kisikhikhvi: {
     title: 'Kisi Khikhvi',
@@ -61,7 +68,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    pdf: KisiKhikhvipdf,
   },
   kindzmarauli: {
     title: 'Kindzmarauli',
@@ -71,7 +78,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    pdf: Kindzmaraulipdf,
   },
   rkatsiteli: {
     title: 'Rkatsiteli',
@@ -81,7 +88,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    pdf: Rkatsitelipdf,
   },
   rkatsiteliqvevri: {
     title: 'Rkatsiteli Qvevri',
@@ -102,7 +109,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    pdf: Saperavipdf,
   },
   saperavioak: {
     title: 'Saperavi Oak',
@@ -113,7 +120,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    pdf: SaperaviOakpdf,
   },
   saperaviqvevri: {
     title: 'Saperavi Qvevri',
@@ -441,7 +448,12 @@ const ProductSeparate = () => {
         {/* Display the title above the text */}
         <h1>{product.title}</h1>
         {product.text.map((line, index) => (
-          <p key={index}>{line}</p>
+          <p 
+            key={index} 
+            style={{ color: line.includes('700ml') ? 'rgba(114, 51, 38, 1)' : 'inherit' }}
+          >
+            {line}
+          </p>
         ))}
         {/* Add the download link for the specific product PDF below the text */}
         <div className="download-section">

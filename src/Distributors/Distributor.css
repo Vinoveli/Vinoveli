@@ -5,8 +5,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    overflow: hidden; /* Ensures no overflow of the pseudo-element */
-
+    overflow: hidden;
 }
 
 .background-section::before {
@@ -16,63 +15,74 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3); /* Black overlay with 50% opacity */
-    z-index: 1; /* Ensures it's above the background image but below the content */
+    background: rgba(0, 0, 0, 0.3); /* Black overlay with 30% opacity */
+    z-index: 1;
 }
 
+/* Overlay Text Styles */
+.overlay-text-distributor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 10;
+    font-size: 50px;
+}
 
 /* Distributor Container Styles */
 .distributor-container {
-    max-width: 700px;
-    height: auto;
-    background-color: white; 
-    margin: 200px auto 100px auto; /* Centers the box and adjusts position */
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Distributor Details Styles */
+.distributor-details {
+    background-color: #f9f9f9;
+    width: 350px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     border-radius: 10px;
-    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.overlay-text-distributor {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%);
-    color: white; /* White text color */
-    text-align: center;
-    z-index: 10; /* Ensure it's above the background image */
-    font-size: 50px;
-}
-
 
 /* Logo Styles */
 .distributors-logo {
-    width: 200px;
+    width: 150px;
     height: auto;
     margin-bottom: 20px;
 }
 
-/* Title Styles */
-.distributor-title {
-    font-size: 34px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: left;
-    color: #333;
-}
-
 /* Content Text Styles */
 .distributor-content {
-    font-size: 25px;
-    color: #555;
+    font-size: 18px;
+    color: #333;
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
     margin-top: 0.5rem;
-
 }
 
+/* Icon Styles */
+.distributor-content svg {
+    vertical-align: middle;
+    margin-right: 8px;
+    color: brown;
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .distributor-details {
+        width: 100%;
+    }
+}

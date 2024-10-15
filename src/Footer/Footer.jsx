@@ -10,10 +10,10 @@ const Footer = () => {
 
         <div className="footer-right">
           <h1>CONTACT</h1>
-          <p style={{ marginTop: '2rem' }}>+995591172323</p>
-          <p>contact@vinoveli.com</p>
-          <p style={{ marginTop: '2rem' }}>Heinrich-Roller str 24</p>
-          <p>10405, Berlin, Germany</p>
+          <p style={{ marginTop: '2rem' }}>+1 (857) 272-5099</p>
+          <p>+1 (617) 877-0301</p>
+          <p>Info@vinoveli.com</p>
+          <p>33 Broad St, Boston, MA 02109</p>
         </div>
       </div>
       <div className="footer-bottom">

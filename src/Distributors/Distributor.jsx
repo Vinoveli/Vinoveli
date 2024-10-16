@@ -11,7 +11,7 @@ import maBackground from '../assets/MA.jpeg';
 import riBackground from '../assets/Rhode-Island.webp';
 import msWalker from '../assets/UntitledDesign.png';
 import affinity from '../assets/partner3.png';
-
+import washington from '../assets/WashingtonDC.jpeg'
 const Distributor = () => {
     const { statename } = useParams();
 
@@ -20,6 +20,7 @@ const Distributor = () => {
         'new-york': backgroundImage,
         'new-jersey': backgroundImage,
         'rhode-island': riBackground,
+        'washington': washington,
         default: backgroundImage,
     };
 
@@ -57,8 +58,21 @@ const Distributor = () => {
                 phone: '914-235-5352',
                 logo: affinity,
                 website: 'mswalker.com',
+                
             },
+            {
+                title: "Second Company",
+                content: "370 Atlantic Ave, Freeport, NY 11520",
+                logo: msWalker,
+                email: 'info@affinitybrandsus.com',
+                website: 'affinitybrandsus.com/',
+                phone: '+1 (516) 385-1041',
+            },
+            
         ],
+        'washington': [{
+            title: 'Washington distributor'
+        }],
         'rhode-island': [
             {
                 title: "Rhode Island Distributor",
@@ -67,6 +81,9 @@ const Distributor = () => {
                 logo: affinity,
                 website: 'mswalker.com',
             },
+
+        
+         
         ],
     };
 

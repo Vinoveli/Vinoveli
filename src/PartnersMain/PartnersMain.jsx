@@ -2,6 +2,8 @@ import React from 'react';
 import './PartnersMain.css'; // We will use a CSS file for styling
 import MsWalker from '../assets/UntitledDesign.png';
 import partner2 from '../assets/new-logo2.png';
+import partner4 from '../assets/new-logo3.png';
+
 import partner3 from '../assets/partner3.png';
 import newMsWalker from '../assets/new-logo.png';
 
@@ -21,6 +23,9 @@ const PartnersMain = () => {
               </a>
               <a href="/partner/3">
                 <img src={partner3} alt="Partner 3" />
+              </a>
+              <a href="/partner/4">
+                <img src={partner4} alt="Partner 3" />
               </a>
             </div>
           </div>

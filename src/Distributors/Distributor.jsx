@@ -12,6 +12,7 @@ import riBackground from '../assets/Rhode-Island.webp';
 import msWalker from '../assets/UntitledDesign.png';
 import affinity from '../assets/partner3.png';
 import washington from '../assets/WashingtonDC.jpeg'
+
 const Distributor = () => {
     const { statename } = useParams();
 
@@ -81,9 +82,6 @@ const Distributor = () => {
                 logo: affinity,
                 website: 'mswalker.com',
             },
-
-        
-         
         ],
     };
 
@@ -105,6 +103,17 @@ const Distributor = () => {
             .join(' ');
     };
 
+    // Helper function to get additional title based on logo
+    const getAdditionalTitle = (logo) => {
+        if (logo === msWalker) {
+            return "Distributor of Marnaveli";
+        } else if (logo === affinity) {
+            return "Distributor of Sarajishvili";
+        } else {
+            return null;
+        }
+    };
+
     return (
         <>
             <div
@@ -116,6 +125,11 @@ const Distributor = () => {
             <div className="distributor-container">
                 {distributors.map((distributor, index) => (
                     <div key={index} className="distributor-details">
+                        {getAdditionalTitle(distributor.logo) && (
+                            <h3 className="additional-title">
+                                {getAdditionalTitle(distributor.logo)}
+                            </h3>
+                        )}
                         {distributor.logo && (
                             <img
                                 src={distributor.logo}

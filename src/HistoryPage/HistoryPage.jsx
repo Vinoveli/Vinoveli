@@ -31,14 +31,6 @@ const HistoryPage = () => {
         <p>
         Georgian wine has a rich history that dates back over 8,000 years, making Georgia one of the oldest wine-producing regions in the world. Archaeological evidence from the Neolithic period, such as ancient wine jars and grape seeds, suggests that the tradition of winemaking began in the fertile valleys of the South Caucasus. The unique method of fermenting grape juice in qvevris (large clay vessels buried underground) has been preserved over millennia and is still practiced today. Throughout its history, Georgian wine has been deeply intertwined with the country's culture, religion, and economy, surviving invasions, Soviet domination, and modern globalization. Today, Georgia is renowned for its diverse range of indigenous grape varieties and its commitment to traditional winemaking techniques, contributing to its reputation as the "Cradle of Wine."
 </p>
-<h1>
-The Legacy of Georgian Wine: Past Meets Present Today
-</h1>
-<p>
-Today, Georgia is home to over 500 native grape varieties, with around 45 used in commercial winemaking. Notable examples include Saperavi, a bold red with strong tannins, and Rkatsiteli, a versatile white used in both dry and amber wines. Georgian wines are produced in two main styles: European, using modern techniques, and traditional qvevri, which highlights the unique character of indigenous grapes.
-
-In recent years, Georgia's wine industry has gained global recognition, blending ancient methods with a renewed focus on quality. As a leader in the natural wine movement, Georgia appeals to those seeking authenticity and tradition. Its winemaking, deeply rooted in history and culture, continues to thrive, carrying forward an 8,000-year-old legacy.
-        </p>
         
       </div>
       <div className="main-vessel-image" style={{ paddingBottom:'10px'}}>
@@ -99,10 +91,15 @@ In recent years, Georgia's wine industry has gained global recognition, blending
       </div>
 
       <div className='main-content-container'>
-        <h1>In a country, where the wine production counts more than thousands of years, the first Georgian wine brandy </h1>
-        <p>
-        In a country, where the wine production counts more than thousands of years, the first Georgian wine brandy appears only in 19th century and is connected to David Sarajishvili name. David Sarajishvili’s biggest will and tireless effort resulted in creating the first Georgian wine brandy. Exactly this person established the first classic brandy making technology in Georgia and produced the cognac accordingly. The company was launched in 1884 and in about three years in 1887 - produced the first product. In a country, where the wine production counts more than thousands of years, the first Georgian wine brandy appears only in 19th century and is connected to David Sarajishvili name. David Sarajishvili’s biggest will and tireless effort resulted in creating the first Georgian wine brandy. 
+      <h1>
+The Legacy of Georgian Wine: Past Meets Present Today
+</h1>
+<p>
+Today, Georgia is home to over 500 native grape varieties, with around 45 used in commercial winemaking. Notable examples include Saperavi, a bold red with strong tannins, and Rkatsiteli, a versatile white used in both dry and amber wines. Georgian wines are produced in two main styles: European, using modern techniques, and traditional qvevri, which highlights the unique character of indigenous grapes.
+
+In recent years, Georgia's wine industry has gained global recognition, blending ancient methods with a renewed focus on quality. As a leader in the natural wine movement, Georgia appeals to those seeking authenticity and tradition. Its winemaking, deeply rooted in history and culture, continues to thrive, carrying forward an 8,000-year-old legacy.
         </p>
+
         
       </div>
 

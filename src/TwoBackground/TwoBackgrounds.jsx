@@ -56,26 +56,7 @@ const TwoBackgrounds = () => {
 
                 <h1>About Vinoveli</h1>
                 <p>
-                Georgian wine has a
-                 rich history that dates
-                  back over 8,000 years, making
-                   Georgia one of the oldest wine-producing
-                    regions in the world. Archaeological
-                     evidence from the Neolithic period,
-                      such as ancient wine jars and grape
-                       seeds, suggests that the tradition of
-                        winemaking began in the fertile valleys
-                         of the South Caucasus. The unique
-                          method of fermenting grape juice
-                           in qvevris (large clay vessels buried
-                            underground) has been preserved over
-                             millennia and is still practiced today.
-                              Throughout its history, Georgian wine
-                               has been deeply intertwined with the
-                                country's culture, religion, and
-                                 economy, surviving invasions, Soviet
-                                  domination, 
-                and modern globalization. 
+                Founded in 2020, Vinoveli is a leading importer dedicated to introducing the rich winemaking traditions of Georgia to the U.S. market. We work closely with top distributors, retailers, and hospitality partners to bring high-quality Georgian wines and spirits to key regions. Our mission is to bridge Georgia’s ancient heritage with today’s wine industry, creating lasting connections and expanding the presence of Georgian products in the U.S.
                 </p>
             </div>
             <img

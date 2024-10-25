@@ -27,11 +27,11 @@ const PartnersMain = () => {
               </a>
             </div>
             {/* Second Row with Partner2 */}
-            <div className='Partners-row single'>
+            {/* <div className='Partners-row single'>
               <a href="/partner/4" className="partner-link">
                 <img src={partner2} alt="Partner 4" className="partner-logo" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ import Saperavi from '../../assets/Saperavi.png'
 import Saperavi_Oak from '../../assets/Saperavi_Oak.png'
 import Saperavi_Qvevri from '../../assets/Saperavi_Qvevri.png'
 import georgiaMap from '../../assets/georgia-map.png'
-
+import newgeomap from '../../assets/geo-map-1.png.png'
 const ProductsMain = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isTransitioning, setIsTransitioning] = useState(false);
@@ -86,8 +86,10 @@ const ProductsMain = () => {
       <div className="productsName-product-display-container">
         {/* Left Side - Text Section */}
         <div className="productsName-product-text">
-        <img className="overlay-image" src={georgiaMap} alt="Overlay Logo" />
-
+            <div className="geo-background">
+        <img className="overlay-image" src={newgeomap} alt="Overlay Logo" />
+        <p>sample text</p>
+        </div>
         </div>
 
         {/* Right Side - Carousel Section */}

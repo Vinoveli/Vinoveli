@@ -27,6 +27,8 @@ import VS from '../../assets/sarajishviliWine/VS.jpg';
 import VSOP from '../../assets/sarajishviliWine/VSOP.jpg';
 import XO from '../../assets/sarajishviliWine/XO.jpg';
 
+
+
 const products = [
   { id: 1, name: "Tikhari", category: "Classic Line", image: Tikhari, description: "Classic Line", size: '700ml', link: "product/tikhari" },
   { id: 2, name: "Sarajishvili 1941", category: "Vintage Line", image: SarajishviliVintage, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1941", year: 1941 },

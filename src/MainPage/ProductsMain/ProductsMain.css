@@ -8,6 +8,16 @@
   height: 40rem;
 }
 
+.geo-background{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+
+.geo-background p{
+  color:white
+}
+
 .productsName-product-text {
   position: relative; /* Ensure the container is positioned for the child absolute elements */
   flex: 3;
@@ -18,15 +28,9 @@
   background-position: center;
 }
 
-.overlay-image {
-  position: absolute;
-  top: 8.5%; /* Adjust as necessary to control vertical positioning */
-  left: 50%;
-  transform: translateX(-50%); /* Centers the image horizontally */
-  max-width: 630px; /* Adjust size as needed */
-  height: auto;
-  opacity: 0.8; /* Adjust opacity if you want some transparency */
-  z-index: 2; /* Ensure the overlay image appears on top of the background */
+.georgia-background{
+  background-color: black;
+  width: 100%;
 }
 
 .productsName-carousel-container {

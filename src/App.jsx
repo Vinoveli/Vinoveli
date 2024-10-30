@@ -40,7 +40,7 @@ const App = () => {
         sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
       const startPosition = window.pageYOffset;
       const distance = targetPosition - startPosition;
-      const duration = 2500; // Duration in milliseconds (adjust as needed)
+      const duration = 4000; // Duration in milliseconds (adjust as needed)
       let startTime = null;
 
       const easeInOutQuad = (t, b, c, d) => {

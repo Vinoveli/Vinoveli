@@ -37,12 +37,12 @@ import Saperavi_Qvevri from '../assets/Saperavi_Qvevri.png'
 import VS from '../assets/sarajishviliWine/VS.jpg'
 import VSOP from '../assets/sarajishviliWine/VSOP.jpg'
 import XO from '../assets/sarajishviliWine/XO.jpg'
-import Saperavipdf from '../assets/saperavi.pdf'
-import SaperaviOakpdf from '../assets/saperavi-oak.pdf'
-import RkatsiteliOakpdf from '../assets/rkatsiteli-oak.pdf'
-import Rkatsitelipdf from '../assets/rkatsiteli.pdf'
-import KisiKhikhvipdf from '../assets/Kisi-khikhvi.pdf'
-import Kindzmaraulipdf from '../assets/kindzmarauli.pdf'
+import Saperavipdf from '../assets/Marnaveli-4.pdf'
+import SaperaviOakpdf from '../assets/marnaveli-5.pdf'
+import RkatsiteliOakpdf from '../assets/Marnaveli-3.pdf'
+import Rkatsitelipdf from '../assets/Marnaveli-6.pdf'
+import KisiKhikhvipdf from '../assets/Marnaveli-2.pdf'
+import Kindzmaraulipdf from '../assets/Marnaveli-1.pdf'
 
 
 
@@ -99,7 +99,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    
   },
   saperavi: {
     title: 'Saperavi',
@@ -131,7 +131,7 @@ const productsData = {
       '700ml',
       'Marnaveli',
     ],
-    pdf: TechSheets,
+    
   },
   VS: {
     title: 'VS',
@@ -141,7 +141,7 @@ const productsData = {
       'Line 3 for Saperavi',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
     VSOP: {
     title: 'VSOP',
@@ -151,7 +151,7 @@ const productsData = {
       'Line 3 for Saperavi',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },  XO: {
     title: 'XO',
     image: XO,
@@ -160,7 +160,7 @@ const productsData = {
       'Line 3 for Saperavi',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   trilogy: {
     title: 'trilogy',
@@ -170,7 +170,7 @@ const productsData = {
       'Line 3 for Saperavi',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
 
  
@@ -183,7 +183,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1953: {
     title: 'Sarajishvili 1953',
@@ -194,7 +194,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1955: {
     title: 'Sarajishvili 1955',
@@ -205,7 +205,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1956: {
     title: 'Sarajishvili 1956',
@@ -216,7 +216,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1957: {
     title: 'Sarajishvili 1957',
@@ -227,7 +227,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1958: {
     title: 'Sarajishvili 1958',
@@ -238,7 +238,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1959: {
     title: 'Sarajishvili 1959',
@@ -249,7 +249,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1960: {
     title: 'Sarajishvili 1960',
@@ -260,7 +260,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1964: {
     title: 'Sarajishvili 1964',
@@ -271,7 +271,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1968: {
     title: 'Sarajishvili 1968',
@@ -282,7 +282,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1969: {
     title: 'Sarajishvili 1969',
@@ -293,7 +293,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1970: {
     title: 'Sarajishvili 1970',
@@ -304,7 +304,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1974: {
     title: 'Sarajishvili 1974',
@@ -315,7 +315,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1973: {
     title: 'Sarajishvili 1973',
@@ -326,7 +326,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1976: {
     title: 'Sarajishvili 1976',
@@ -337,7 +337,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1977: {
     title: 'Sarajishvili 1977',
@@ -348,7 +348,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1979: {
     title: 'Sarajishvili 1979',
@@ -359,7 +359,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1980: {
     title: 'Sarajishvili 1980',
@@ -370,7 +370,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1946: {
     title: 'Sarajishvili 1946',
@@ -381,7 +381,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1947: {
     title: 'Sarajishvili 1947',
@@ -392,7 +392,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1949: {
     title: 'Sarajishvili 1949',
@@ -403,7 +403,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1950: {
     title: 'Sarajishvili 1950',
@@ -414,7 +414,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
   sarajishvili1952: {
     title: 'Sarajishvili 1952',
@@ -425,7 +425,7 @@ const productsData = {
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
-    pdf: TechSheets,
+    
   },
 };
 

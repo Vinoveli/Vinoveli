@@ -34,9 +34,9 @@ import Rkatsiteli_Qvevri from '../assets/Rkatsiteli_Qvevri.png'
 import Saperavi_Oak from '../assets/Saperavi_Oak.png'
 import trilogy from '../assets/sarajishviliWine/trilogy.jpg'
 import Saperavi_Qvevri from '../assets/Saperavi_Qvevri.png'
-import VS from '../assets/sarajishviliWine/VS.jpg'
-import VSOP from '../assets/sarajishviliWine/VSOP.jpg'
-import XO from '../assets/sarajishviliWine/XO.jpg'
+import vs from '../assets/sarajishviliWine/VS.jpg'
+import vsop from '../assets/sarajishviliWine/VSOP.jpg'
+import xo from '../assets/sarajishviliWine/XO.jpg'
 import Saperavipdf from '../assets/Marnaveli-4.pdf'
 import SaperaviOakpdf from '../assets/marnaveli-5.pdf'
 import RkatsiteliOakpdf from '../assets/Marnaveli-3.pdf'
@@ -133,9 +133,9 @@ const productsData = {
     ],
     
   },
-  VS: {
+  vs: {
     title: 'VS',
-    image: VS,
+    image: vs,
     text: [
       'Line 2 for Saperavi',
       'Line 3 for Saperavi',
@@ -143,18 +143,18 @@ const productsData = {
     ],
     
   },
-    VSOP: {
+    vsop: {
     title: 'VSOP',
-    image: VSOP,
+    image: vsop,
     text: [
       'Line 2 for Saperavi',
       'Line 3 for Saperavi',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],
     
-  },  XO: {
+  },  xo: {
     title: 'XO',
-    image: XO,
+    image: xo,
     text: [
       'Line 2 for Saperavi',
       'Line 3 for Saperavi',
@@ -257,6 +257,7 @@ const productsData = {
     text: [
       'White dry wine',
       '700ml',
+      
       'Marnaveli',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
     ],

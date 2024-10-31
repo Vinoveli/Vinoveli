@@ -50,25 +50,47 @@ import Kindzmaraulipdf from '../assets/Marnaveli-1.pdf'
 const productsData = {
   rkatsitelioak: {
     title: 'Rkatsiteli Oak',
-    image: RkatsiteliOak,
+    image: RkatsiteliOak, // Ensure you have imported this image
     text: [
-      'Dry White Wine',
-      'Aged in Oak',
-      '700ml',
-      'Marnaveli',
+      'The Rkatsiteli grape variety is Georgia\'s most planted and important white wine grape variety. Its characteristics are well-suited to a range of wine styles ranging from stainless steel, oak matured, and skin-contact crafted in Qvevri. The name "Rka-tsiteli" refers to the tendency of the grape stems to turn red as the clusters ripen.',
+      'Vinification:',
+      'All grapes were hand-picked, and the healthiest clusters were carefully selected. The clusters were destemmed, crushed, and gently pressed. To preserve and enhance the aromatic profile of the Rkatsiteli variety, the juice was clarified and inoculated with specially selected yeast. Fermentation lasted about 7 days at a temperature of 12-14°C (54-57°F). Malolactic conversion was suppressed to retain fresh characteristics. After fermentation, the wine was racked from the lees and transferred to 4th use French oak barrels where the wine matured for 6 months.',
+      'Tasting Notes:',
+      'Ripe apple, green melon, white peach, and honeysuckle aromas intertwine with light hints of toast, hazelnut, vanilla, and caramel. Creamy texture on the palate with ripe fruit flavors and lingering toasty finish.',
+      'Service Temperature:',
+      'Lightly chilled 10-13°C (50-55°F)',
+      'Food Pairings:',
+      'Young cheeses, creamy soups, buttery seafood dishes, roasted chicken, fried chicken, and cream sauces.',
+      'Technical Information:',
+      'Grape Variety: 100% Rkatsiteli',
+      'Alcohol by Volume: 13.5%',
+      'Residual Sugar: 0.8 g/L',
+      'Titratable Acidity: 4.4 g/L',
+      'pH: 3.51',
     ],
-    pdf: RkatsiteliOakpdf,
+    pdf: RkatsiteliOakpdf, // Ensure you have imported this PDF
   },
   kisikhikhvi: {
     title: 'Kisi Khikhvi',
-    image: Kisi_Qvevri,
+    image: Kisi_Qvevri, // Ensure you have imported this image
     text: [
-      'Dry Amber Wine',
-      'Qvevri Wine',
-      '700ml',
-      'Marnaveli',
+      'The Qvevri is a traditional Georgian winemaking vessel handcrafted from clay. The Qvevri is usually buried in the ground to provide natural temperature control. Wine fermentation and maturation can take place in the qvevri. White grapes will often undergo long periods of skin contact in qvevri to produce "amber" wines. Qvevri winemaking has been inscribed on UNESCO\'s Representative List of the Intangible Cultural Heritage of Humanity.',
+      'Vinification:',
+      'Aromatic white grapes from the Kakheti region, Kisi and Khikhvi, were vinified separately in Qvevri. The grapes were destemmed and crushed directly into qvevri and inoculated with specially selected yeast. The natural fermentation temperature in qvevri ranged from 25-30°C (77-86°F), and the fermentation lasted for 5-7 days. Upon completion of fermentation, the qvevri was topped up and sealed. The wine continued to mature for 6 months with full skin contact. After 6 months, the wine was removed from qvevri, pressed, and stored in stainless steel tanks to preserve fresh aromatics.',
+      'Tasting Notes:',
+      'Golden amber color with aromas of white cherry, baked peach, dried apricot, dried wildflowers, fresh walnuts, and jasmine tea. The palate brings out fresh citrus and coriander spice flavors with fine tannins and substantial body.',
+      'Service Temperature:',
+      'Lightly chilled 10-13°C (50-55°F)',
+      'Food Pairings:',
+      'All types of cheeses, chickpea dishes, roasted chicken and pork, creamy and nutty sauces.',
+      'Technical Information:',
+      'Grape Variety: 60% Kisi, 40% Khikhvi',
+      'Alcohol by Volume: 12.5%',
+      'Residual Sugar: 0.2 g/L',
+      'Titratable Acidity: 6.3 g/L',
+      'pH: 3.32',
     ],
-    pdf: KisiKhikhvipdf,
+    pdf: KisiKhikhvipdf, // Ensure you have imported this PDF
   },
   kindzmarauli: {
     title: 'Kindzmarauli',
@@ -82,13 +104,25 @@ const productsData = {
   },
   rkatsiteli: {
     title: 'Rkatsiteli',
-    image: Rkatsiteli,
+    image: Rkatsiteli, // Ensure you have imported this image
     text: [
-      'Dry White Wine',
-      '700ml',
-      'Marnaveli',
+      'The Rkatsiteli grape variety is Georgia\'s most planted and important white wine grape variety. Its characteristics are well-suited to a range of wine styles ranging from stainless steel, oak matured, and skin-contact crafted in Qvevri. The name "Rka-tsiteli" refers to the tendency of the grape stems to turn red as the clusters ripen.',
+      'Vinification:',
+      'Top quality Rkatsiteli grapes were collected from villages throughout the Kakheti wine region. The clusters were destemmed, crushed, and gently pressed. To preserve and enhance the aromatic profile of the Rkatsiteli variety, the juice was clarified and inoculated with specially selected yeast. Fermentation lasted about 7 days at a temperature of 12-14°C (54-57°F). After fermentation, the wine was racked from the lees and stored in stainless steel tanks before bottling.',
+      'Tasting Notes:',
+      'Delicate aromas of spring blossoms, meadow grass, juicy lemon, fresh apricot, crisp apple, and pear. This wine has a smooth, round texture that is enlivened by zesty citrus notes on the palate. Light body and clean finish.',
+      'Service Temperature:',
+      'Chilled 7-10°C (45-50°F)',
+      'Food Pairings:',
+      'Young cheeses, fresh salads, shellfish, white-fleshed fish, herbed chicken, and light cream sauces.',
+      'Technical Information:',
+      'Grape Variety: 100% Rkatsiteli',
+      'Alcohol by Volume: 13.0%',
+      'Residual Sugar: 1.4 g/L',
+      'Titratable Acidity: 5.4 g/L',
+      'pH: 3.4',
     ],
-    pdf: Rkatsitelipdf,
+    pdf: Rkatsitelipdf, // Ensure you have imported this PDF
   },
   rkatsiteliqvevri: {
     title: 'Rkatsiteli Qvevri',
@@ -103,24 +137,47 @@ const productsData = {
   },
   saperavi: {
     title: 'Saperavi',
-    image: Saperavi,
+    image: Saperavi, // Ensure you have imported or defined this image
     text: [
-      'Dry Red Wine',
-      '700ml',
-      'Marnaveli',
+      'Saperavi is Georgia\'s most prominent red grape variety which is prized for its deep color and bold structure. Its pigmented flesh makes Saperavi a "teinturier" grape variety and gives rise to its name which means "to give color". Saperavi\'s distinct qualities have inspired Georgian winemakers to produce a wide range of styles such as sparkling, rosé, dry red, semi-sweet red and fully sweet.',
+      'Vinification:',
+      'Saperavi grapes were harvested at 22-28 Brix to provide ripeness and structure. Grapes were crushed and destemmed. The must was then inoculated with specially selected yeast to emphasize the varietal aromas of the Saperavi grapes. The fermentation was conducted in a temperature-controlled environment at 22°C (71-72°F for 5-6 days with periodic punch downs and pump overs. When the primary fermentation finished, the wine was pressed and transferred to stainless steel tanks where malolactic fermentation took place. The wine was then moved to 4th use French oak barrels and aged for 9 months.',
+      'Tasting Notes:',
+      'Deep ruby color with violet hue. Rich with aromas of violets, juicy black cherry, ripe blackberry, baked black plum with light touches of vanilla, cedar, earth and dark chocolate. Intense black fruit flavors on the palate are complemented by velvety texture and a complex, long-lasting finish.',
+      'Service Temperature:',
+      'Room temperature 15-18°C (59-64°F)',
+      'Food Pairings:',
+      'Grilled steaks, braised meats, hearty stews, aged cheeses, barbecue and mushroom sauces.',
+      'Technical Information:',
+      'Grape Variety: 100% Saperavi',
+      'Alcohol by Volume: 13.2%',
+      'Residual Sugar: 3.2 g/L',
+      'Titratable Acidity: 5.5 g/L',
+      'pH: 3.61',
     ],
-    pdf: Saperavipdf,
+    pdf: Saperavipdf, // Ensure you have imported or defined this PDF
   },
   saperavioak: {
     title: 'Saperavi Oak',
-    image: Saperavi_Oak,
+    image: Saperavi_Oak, // Ensure you have imported this image
     text: [
-      'Dry Red Wine',
-      'Aged in Oak',
-      '700ml',
-      'Marnaveli',
+      'Saperavi is Georgia\'s most prominent red grape variety which is prized for its deep color and bold structure. Its pigmented flesh makes Saperavi a "teinturier" grape variety and gives rise to its name which means "to give color". Saperavi\'s distinct qualities have inspired Georgian winemakers to produce a wide range of styles such as sparkling, rosé, dry red, semi-sweet red, and fully sweet.',
+      'Vinification:',
+      'Saperavi grapes were harvested at 22-28 Brix to provide ripeness and structure. Grapes were crushed and destemmed. The must was then inoculated with specially selected yeast to emphasize the varietal aromas of the Saperavi grapes. The fermentation was conducted in a temperature-controlled environment at 22°C (71-72°F) for 5-6 days with periodic punch downs and pump overs. When the primary fermentation finished, the wine was pressed and transferred to stainless steel tanks where malolactic fermentation took place. The wine was then moved to 4th use French oak barrels and aged for 9 months.',
+      'Tasting Notes:',
+      'Deep ruby color with violet hue. Rich with aromas of violets, juicy black cherry, ripe blackberry, baked black plum with light touches of vanilla, cedar, earth, and dark chocolate. Intense black fruit flavors on the palate are complemented by velvety texture and a complex, long-lasting finish.',
+      'Service Temperature:',
+      'Room temperature 15-18°C (59-64°F)',
+      'Food Pairings:',
+      'Grilled steaks, braised meats, hearty stews, aged cheeses, barbecue, and mushroom sauces.',
+      'Technical Information:',
+      'Grape Variety: 100% Saperavi',
+      'Alcohol by Volume: 13.2%',
+      'Residual Sugar: 3.2 g/L',
+      'Titratable Acidity: 5.5 g/L',
+      'pH: 3.61',
     ],
-    pdf: SaperaviOakpdf,
+    pdf: SaperaviOakpdf, 
   },
   saperaviqvevri: {
     title: 'Saperavi Qvevri',
@@ -137,9 +194,7 @@ const productsData = {
     title: 'VS',
     image: vs,
     text: [
-      'Line 2 for Saperavi',
-      'Line 3 for Saperavi',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      "A fresh, harmonious brandy of a vigorous character, Sarajishvili VS is a mouth-watering blend of spirits of different ages. Grapes from different wine-making regions of Georgia give this exceptional light-amber coloured brandy complex aromas of wild flowers and dried fruits, impressive intensity and precision, and a lingering, sensual finish"
     ],
     
   },
@@ -147,18 +202,14 @@ const productsData = {
     title: 'VSOP',
     image: vsop,
     text: [
-      'Line 2 for Saperavi',
-      'Line 3 for Saperavi',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      "The natural balance of strength and smoothness creates a harmonious blend of Sarajishvili VSOP - an exceptional product of Sarajishvili, in which maturity combines with vigour. It is a blend of premium spirits made of Georgian grapes. Its time spent ageing in an oak barrel infuses it with complex aromas along with notes of dried fruits and prunes, cinnamon, vanilla and sweet spices, typical of lengthy ageing. Multi-layered in texture and luminous amber in tone, this is a perfectly balanced yet intense brandy."
     ],
     
   },  xo: {
     title: 'XO',
     image: xo,
     text: [
-      'Line 2 for Saperavi',
-      'Line 3 for Saperavi',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      "SARAJISHVILI XO is a distinguished product from the classic line of brandies. A special bouquet of spirits from selected Georgian grape varieties aged in oak casks is characterized by its remarkable dark amber color, an exquisite and harmonious bouquet, as well as soft velvet taste. While tasting this fine brandy one is able to pick out the intense notes of vanilla, chocolate and oak, feel distinguished aromas of almond and leather."
     ],
     
   },
@@ -166,9 +217,7 @@ const productsData = {
     title: 'trilogy',
     image: trilogy,
     text: [
-      'Line 2 for Saperavi',
-      'Line 3 for Saperavi',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      "A history dates back to 1884 when David Sarajishvili founded the wine brandy production in Georgia by using the classic technology. Thanks to traditions, aspiration to novelties and constant creative searching, Sarajishvili House manages to maintain high-quality production and establish a name of one of the remarkable brands. The history goes on and distinguished alcoholic beverages are created by using the ancient, manifold spirits of Sarajishvili House. The recent achievement of this continuous process is TRILOGY, where the main concept of the product is expressed in its name. TRILOGY is a result of inspiration based on an idea of uniting past and present. One of the most refined products of Sarajishvili House is a harmonious synthesis of XIX, XX and XXI centuries, three grape types, and three regions of Georgia. Apart from its century-old aging, the secret of TRILOGY lies in special grape varieties selected from three different Georgian micro zones having particular climatic conditions. This unique drink is a harmonic blend of Tsitska from Imereti, Chinuri from Kartli and Rkatsiteli from Kakheti. TRILOGY is blessed by the wealth that the drink acquires only through aging. It has distinctive color of dark gold obtained from oak casks, also the smoothness and softness acquired through many years of aging. As the fusion of three millennia, this unique blend has the age of 65 years. Thanks to blending eastern and western zones of Georgia in one drink, it acquires exotic, distinguished aromas and more intensively highlights the uniqueness of its main concept. A master has creatively transformed the idea of TRILOGY in the sophisticated design of a carafe. Inspired by its special concept, the carafe is a combination of three triangles, manifested by the triangle-shaped bottle. This extraordinarily and refined object has a crystal closure as a final accord repeating a shape of the carafe. The harmonious combination of ancient, refined drink and unordinary shapes of the carafe turns the TRILOGY concept into reality."
     ],
     
   },
@@ -178,10 +227,18 @@ const productsData = {
     title: 'Sarajishvili 1941',
     image: Sarajishvili1941,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1941',
+      'Region:',
+      'Kakheti, Ikalto-Kurdgelauri and Tsinandali microzones;',
+      'Grape Variety:',
+      'Rkatsiteli, Mtsvane;',
+      'Color:',
+      'Pleasant, clear dark gold;',
+      'Aroma:',
+      'Complex, with tones of antiquity combined harmoniously with aromas of dried fruit, honey, bread crust, slightly notable vanilla and chocolate;',
+      'Taste:',
+      'Rich, thick, tender, and velvety at the same time.',
     ],
     
   },
@@ -211,10 +268,18 @@ const productsData = {
     title: 'Sarajishvili 1956',
     image: Sarajishvili1956,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1956',
+      'Region:',
+      'Imereti, the Zestaponi-Terjola microzone',
+      'Grape Variety:',
+      'Tsitska and Tsolikauri',
+      'Color:',
+      'Clear gold',
+      'Aroma:',
+      'Rich, with pleasant aroma of fruit and wildflowers',
+      'Taste:',
+      'Delicate, harmonious, soft',
     ],
     
   },
@@ -222,10 +287,18 @@ const productsData = {
     title: 'Sarajishvili 1957',
     image: Sarajishvili1957,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1957',
+      'Region:',
+      'Imereti, Vachevi-Zestaponi-Sviri microzone',
+      'Grape Variety:',
+      'Tsitska and Tsolikauri',
+      'Color:',
+      'Clear brown going to gold color',
+      'Aroma:',
+      'Refined, pleasant, fruit and berry tones wonderfully blended with oak wood and vanilla smell',
+      'Taste:',
+      'Smooth, harmonious, with tones of oldness',
     ],
     
   },
@@ -233,10 +306,18 @@ const productsData = {
     title: 'Sarajishvili 1958',
     image: Sarajishvili1958,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1958',
+      'Region:',
+      'Zemo Imereti and partially, Shua Imereti: Dzirula, Dzirula-Kharagauli and Chiatura-Sachkhere, Zestaponi microzones',
+      'Grape Variety:',
+      'Tsolikauri, Tsitska',
+      'Color:',
+      'Gradient from clear dark beige to gold',
+      'Aroma:',
+      'Fragrances of fresh fruit and flowers, as well as vanilla saturated with oak timber tones',
+      'Taste:',
+      'Soft, harmonious',
     ],
     
   },
@@ -244,10 +325,18 @@ const productsData = {
     title: 'Sarajishvili 1959',
     image: Sarajishvili1959,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1959',
+      'Region:',
+      'Kvemo Kartli: Bolnisi, Marneuli, Gardabani, Tetri Tskaro microzones',
+      'Grape Variety:',
+      'Rkatsiteli',
+      'Color:',
+      'Gold',
+      'Aroma:',
+      'Pleasant, delicate, with tones of caramel, dried fruit, spicy vanilla, and oak timber',
+      'Taste:',
+      'Full, rich, with slight spicy bitterness typical to aged brandy',
     ],
     
   },
@@ -255,22 +344,36 @@ const productsData = {
     title: 'Sarajishvili 1960',
     image: Sarajishvili1960,
     text: [
-      'White dry wine',
-      '700ml',
-      
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1960',
+      'Region:',
+      'Kvemo Kartli: Bolnisi, Marneuli, Gardabani, Tetri Tskaro microzones',
+      'Grape Variety:',
+      'Rkatsiteli',
+      'Color:',
+      'Dark gold',
+      'Aroma:',
+      'Diverse, with delicate aroma of wildflowers, dried fruit, and caramel',
+      'Taste:',
+      'Soft, harmonious, with tones of antiquity',
     ],
-    
   },
   sarajishvili1964: {
     title: 'Sarajishvili 1964',
     image: Sarajishvili1964,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1964',
+      'Region:',
+      'Imereti, Vartsikhe, Dimi, Rokiti microzones',
+      'Grape Variety:',
+      'Tsolikauri, Tsitska',
+      'Color:',
+      'From amber to dark gold',
+      'Aroma:',
+      'Delicate, pleasant, with an incredible blend of fruit and berry tones mixed with oak timber and vanilla fragrances',
+      'Taste:',
+      'Delicate, soft',
     ],
     
   },
@@ -278,10 +381,18 @@ const productsData = {
     title: 'Sarajishvili 1968',
     image: Sarajishvili1968,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1968',
+      'Region:',
+      'Imereti, Baghdati-Vartsikhe microzone',
+      'Grape Variety:',
+      'Tsitska and Tsolikauri',
+      'Color:',
+      'Attractive, clear transparent, dark amber color going to gold',
+      'Aroma:',
+      'Complicated, versatile, fruit and flower smell harmoniously blends with oak and chocolate tones',
+      'Taste:',
+      'Smooth, harmonious, with tones of oldness',
     ],
     
   },
@@ -289,10 +400,18 @@ const productsData = {
     title: 'Sarajishvili 1969',
     image: Sarajishvili1969,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1969',
+      'Region:',
+      'Kartli, the Aghaiani-Kaspi-Mukhrani-Mtskheta microzone',
+      'Grape Variety:',
+      'Chinuri, Goruli Mtsvane',
+      'Color:',
+      'From amber to dark gold',
+      'Aroma:',
+      'Rich and diverse, with tones of dried fruit, caramel, and oak timber',
+      'Taste:',
+      'Full, rich, with slight spicy bitterness typical to aged brandy',
     ],
     
   },
@@ -300,10 +419,18 @@ const productsData = {
     title: 'Sarajishvili 1970',
     image: Sarajishvili1970,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1970',
+      'Region:',
+      'Kakheti region, Kvareli district, the Shilda-Eniseli microzone',
+      'Grape Variety:',
+      'Tsitska, Tsolikauri',
+      'Color:',
+      'Clear gold',
+      'Aroma:',
+      'Delicate, mild, with diverse aromas of fruit and wildflowers',
+      'Taste:',
+      'Harmonious, soft, with a spicy hint of oak',
     ],
     
   },
@@ -311,10 +438,18 @@ const productsData = {
     title: 'Sarajishvili 1974',
     image: Sarajishvili1974,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1970',
+      'Region:',
+      'Kakheti region, Kvareli district, the Shilda-Eniseli microzone',
+      'Grape Variety:',
+      'Tsitska, Tsolikauri',
+      'Color:',
+      'Clear gold',
+      'Aroma:',
+      'Delicate, mild, with diverse aromas of fruit and wildflowers',
+      'Taste:',
+      'Harmonious, soft, with a spicy hint of oak',
     ],
     
   },
@@ -322,10 +457,18 @@ const productsData = {
     title: 'Sarajishvili 1973',
     image: Sarajishvili1973,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1973',
+      'Region:',
+      'Kakheti, Kvareli region, Shilda-Eniseli microzone',
+      'Grape Variety:',
+      'Rkatsiteli',
+      'Color:',
+      'From clear brown color goes to gold',
+      'Aroma:',
+      'Versatile, fruit and flower smells harmoniously blend with piquant oak wood tones',
+      'Taste:',
+      'Pleasant, refined, with slight taste of caramel and oak wood',
     ],
     
   },
@@ -344,10 +487,18 @@ const productsData = {
     title: 'Sarajishvili 1977',
     image: Sarajishvili1977,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1977',
+      'Region:',
+      'Kakheti, the Gremi-Shilda-Sabue-Eniseli microzone',
+      'Grape Variety:',
+      'Rkatsiteli',
+      'Color:',
+      'Dark gold',
+      'Aroma:',
+      'Black plum, almond, bread crust, with spicy chocolate aroma',
+      'Taste:',
+      'Soft, harmonious',
     ],
     
   },
@@ -355,10 +506,18 @@ const productsData = {
     title: 'Sarajishvili 1979',
     image: Sarajishvili1979,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1979',
+      'Region:',
+      'Imereti, the Dzirula-Kharagauli and Chiatura-Sachkhere microzones',
+      'Grape Variety:',
+      'Tsolikauri, Tsitska',
+      'Color:',
+      'Gradient from clear dark beige to gold',
+      'Aroma:',
+      'Rich, diverse, with delicate aroma of flower blossoms, dried fruit, and caramel',
+      'Taste:',
+      'Delicate, soft, with spicy oak tones typical to aged cognac',
     ],
     
   },
@@ -366,10 +525,18 @@ const productsData = {
     title: 'Sarajishvili 1980',
     image: Sarajishvili1980,
     text: [
-      'White dry wine',
-      '700ml',
-      'Marnaveli',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum sed illo fugiat. Suscipit accusamus molestiae impedit, nemo iusto numquam labore assumenda, a quae, consequuntur tenetur tempora sint ratione iste!',
+      'Year:',
+      '1980',
+      'Region:',
+      'Kartli, the Shilda-Eniseli microzone',
+      'Grape Variety:',
+      'Rkatsiteli',
+      'Color:',
+      'Gold',
+      'Aroma:',
+      'Delicate, harmonious, with tones of black plum, almond, and spicy oak',
+      'Taste:',
+      'Soft, delicate, with a hint of caramel and oak timber',
     ],
     
   },
@@ -430,8 +597,6 @@ const productsData = {
   },
 };
 
-
-
 const ProductSeparate = () => {
   const { productId } = useParams(); // Get the product ID from the URL
   const product = productsData[productId]; // Use product ID to find data
@@ -448,14 +613,18 @@ const ProductSeparate = () => {
       <div className="text-section">
         {/* Display the title above the text */}
         <h1>{product.title}</h1>
-        {product.text.map((line, index) => (
-          <p 
-            key={index} 
-            style={{ color: line.includes('700ml') ? 'rgba(114, 51, 38, 1)' : 'inherit' }}
-          >
-            {line}
-          </p>
-        ))}
+        {product.text.map((line, index) => {
+          const isTitle = line.endsWith(':');
+          return isTitle ? (
+            <h2 key={index} className="subtitle">
+              {line}
+            </h2>
+          ) : (
+            <p key={index} className="description">
+              {line}
+            </p>
+          );
+        })}
         {/* Add the download link for the specific product PDF below the text */}
         <div className="download-section">
           <a href={product.pdf} download={`${productId}Details.pdf`}>
@@ -468,3 +637,4 @@ const ProductSeparate = () => {
 };
 
 export default ProductSeparate;
+

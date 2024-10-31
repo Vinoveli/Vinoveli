@@ -86,7 +86,7 @@ const MainBackground = () => {
           <h1 className="mainbackground-title">DISCOVER THE WORLD OF GEORGIAN WINE AND BRANDY</h1>
         </div>
         <div className="content">
-          <p className="description">Vinoveli introduces the rich heritage of Georgian wine and brandy to the U.S. market. With a deep commitment to tradition and masterful craftsmanship, we offer an exclusive selection of wines and spirits that embody the essence of Georgia. Each bottle tells a story of authenticity, passion, and centuries-old winemaking expertise. </p>
+          <p className="description-mainbackground">Vinoveli introduces the rich heritage of Georgian wine and brandy to the U.S. market. With a deep commitment to tradition and masterful craftsmanship, we offer an exclusive selection of wines and spirits that embody the essence of Georgia. Each bottle tells a story of authenticity, passion, and centuries-old winemaking expertise. </p>
           <button className="cta-button" onClick={handleScroll}>EXPLORE <KeyboardDoubleArrowDownIcon className='double-arrow'/></button>
         </div>
       </div>

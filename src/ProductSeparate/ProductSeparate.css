@@ -9,11 +9,11 @@
 
 .image-section, .text-section {
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .image-section {
-  background-color: white;
+  /* background-color: white; */
   text-align: center;
 }
 
@@ -58,6 +58,33 @@
 .download-section a:hover {
   text-decoration: underline;
 }
+
+
+
+.text-section h1 {
+  margin: 5px 0;
+  font-size: 36px;
+  font-family: "STIX Two Text", serif;
+  font-weight: 200;
+  color: rgba(114, 51, 38, 1);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(114, 51, 38, 1);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
 
 /* Media Queries for smaller screens */
 @media (max-width: 768px) {

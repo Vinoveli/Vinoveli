@@ -2,8 +2,8 @@ import React from 'react';
 import './History.css';
 import rollingImage from '../../assets/design.png';
 import qvevri from '../../assets/qvevri.png';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-
+import { Link } from 'react-router-dom';
+import animation from '../../assets/animation/animation1.gif';
 
 const History = () => {
   return (
@@ -29,7 +29,11 @@ const History = () => {
         <Link to="/history">
           <button className="see-more-button">See More</button>
         </Link>
+      <img src={animation} alt="Animation" className="gif-animation" />
+
       </div>
+
+
       {/* <div className="qvevri-image">
           <img src={qvevri} alt="Qvevri" />
         </div> */}

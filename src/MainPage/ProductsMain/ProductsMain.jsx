@@ -14,7 +14,7 @@ import Rkatsiteli_Qvevri from '../../assets/Rkatsiteli_Qvevri.png'
 import Saperavi from '../../assets/Saperavi.png'
 import Saperavi_Oak from '../../assets/Saperavi_Oak.png'
 import Saperavi_Qvevri from '../../assets/Saperavi_Qvevri.png'
-import georgiaMap from '../../assets/georgia-map.png'
+import georgiaMap from '../../assets/GE.svg'
 
 const ProductsMain = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

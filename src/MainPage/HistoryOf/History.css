@@ -1,9 +1,10 @@
 /* Centered Container */
 .centered-container {
-    text-align: center;
+    width: 90%;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
+    text-align: center;
 }
 
 .centered-container h1 {
@@ -38,8 +39,8 @@
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 20px;    /* Adjust spacing above the button if needed */
-    margin-bottom: 10px; /* Adjust spacing below the button */
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .see-more-button:hover {
@@ -50,10 +51,8 @@
 /* GIF Animation */
 .gif-animation {
     display: block;
-    margin-top: 10px;   /* Reduce the top margin to bring it closer to the button */
-    margin-bottom: 40px; /* Adjust bottom margin if needed */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto 40px auto;
+    width: 100%;
     max-width: 800px;
     height: auto;
 }
@@ -68,14 +67,14 @@
 
 .scrolling-image {
     display: flex;
-    flex-direction: row;
     width: calc(200%);
-    animation: scrollHorizontal 200s linear infinite;
+    animation: scrollHorizontal 60s linear infinite;
 }
 
 .scrolling-image img {
     width: auto;
-    height: 100px;
+    height: 10vw;
+    max-height: 100px;
     flex-shrink: 0;
 }
 
@@ -91,8 +90,11 @@
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
-    .centered-container {
-        width: 90%;
+    .centered-container h1 {
+        font-size: 3rem;
+    }
+    .centered-container h2 {
+        font-size: 2.5rem;
     }
     .centered-container p {
         font-size: 1.2rem;
@@ -100,31 +102,32 @@
 }
 
 @media (max-width: 768px) {
-    .centered-container {
-        width: 90%;
-    }
-    .centered-container p {
-        font-size: 1rem;
-    }
     .centered-container h1 {
         font-size: 2.5rem;
     }
     .centered-container h2 {
         font-size: 2rem;
     }
+    .centered-container p {
+        font-size: 1rem;
+    }
+    .gif-animation {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
-    .centered-container {
-        width: 90%;
-    }
-    .centered-container p {
-        font-size: 0.875rem;
-    }
     .centered-container h1 {
         font-size: 2rem;
     }
     .centered-container h2 {
         font-size: 1.5rem;
+    }
+    .centered-container p {
+        font-size: 0.875rem;
+    }
+    .scrolling-image img {
+        height: 15vw;
+        max-height: 80px;
     }
 }

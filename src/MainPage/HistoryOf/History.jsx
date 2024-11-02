@@ -29,67 +29,21 @@ const History = () => {
         <Link to="/history">
           <button className="see-more-button">See More</button>
         </Link>
-      <img src={animation} alt="Animation" className="gif-animation" />
-
+        <img src={animation} alt="Animation" className="gif-animation" />
       </div>
 
-
-      {/* <div className="qvevri-image">
-          <img src={qvevri} alt="Qvevri" />
-        </div> */}
-      <div className="scrolling-image-container">
+      {/* Uncomment if needed
+      <div className="qvevri-image">
+        <img src={qvevri} alt="Qvevri" />
+      </div>
+      */}
       
+      <div className="scrolling-image-container">
         <div className="scrolling-image">
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
-          <img src={rollingImage} alt="Scrolling" />
+          {Array(50).fill().map((_, index) => (
+            <img key={index} src={rollingImage} alt="Scrolling" />
+          ))}
         </div>
-
       </div>
     </>
   );

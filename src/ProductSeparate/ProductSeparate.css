@@ -19,7 +19,8 @@
 
 .image {
   max-width: 300px;
-  height: auto;
+
+  height: 40rem;
   margin-top: 2rem;
 }
 

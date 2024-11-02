@@ -172,37 +172,94 @@
     height: auto;
 }
 
-/* Responsive adjustments */
+/* Adjustments for small screens */
 @media screen and (max-width: 768px) {
+    /* Adjust overlay content to stack vertically */
     .overlay-content {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+        padding: 1rem;
+        height: auto;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
+    /* Adjust left content */
     .left-content {
         max-width: 100%;
-        margin-bottom: 2rem;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
     }
 
+    .left-content h1 {
+        font-size: 2rem;
+    }
+
+    .left-content p {
+        font-size: 1rem;
+    }
+
+    /* Adjust custom dropdown */
+    .custom-dropdown {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .dropdown-header {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .dropdown-option {
+        font-size: 16px;
+    }
+
+    /* Adjust right content (map image) */
     .right-content {
+        width: 100%;
         justify-content: center;
+        margin-top: 1rem;
     }
 
     .right-image {
-        max-width: 100%;
+        width: 80%;
+        max-width: 300px;
+        height: auto;
     }
 
+    /* Adjust the second image container */
+    .image-container2 {
+        height: auto; /* Allow the container to adjust its height */
+    }
+
+    /* Adjust the overlay content at the bottom */
     .overlay-content-bottom {
-        width: 80%;
+        position: relative; /* Change from absolute to relative */
+        bottom: auto;
+        left: auto;
+        margin: 20px auto; /* Center the overlay and adjust margins */
+        width: 90%;
+        max-width: 600px;
         padding: 1rem;
-        margin-left: 2.5rem;
         background-color: rgba(255, 255, 255, 0.9);
+        box-sizing: border-box; /* Include padding in the width calculation */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .overlay-content-bottom h1 {
         font-size: 1.8rem;
         margin-top: 1rem;
         padding: 0;
+    }
+
+    .overlay-content-bottom p {
+        font-size: 1rem;
+        margin-top: 20px;
     }
 
     .logo-image {

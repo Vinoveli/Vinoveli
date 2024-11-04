@@ -58,7 +58,7 @@
 .left-content h1 {
     margin-bottom: 1rem;
     font-family: "STIX Two Text", serif;
-    font-size: 55px;
+    font-size: 22px;
     font-weight: 200;
 }
 
@@ -153,7 +153,16 @@
     margin-left: 80px;
     max-width: 600px;
     z-index: 1000;
+    text-align: center; /* Center-align text and image within the container */
 }
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    display: block; /* Ensures that the logo is centered within its container */
+    margin: 0 auto 10px; /* Centers the logo and adjusts bottom margin */
+}
+
 
 .overlay-content-bottom h1 {
     margin-bottom: 1rem;
@@ -161,15 +170,12 @@
     font-family: "STIX Two Text", serif;
     color: rgba(114, 51, 38, 1);
     font-weight: 200;
+    text-align: center;
 }
 
 .overlay-content-bottom p {
     font-family: "STIX Two Text", serif;
-}
-
-.logo-image {
-    width: 100px;
-    height: auto;
+    text-align: center;
 }
 
 /* Adjustments for small screens */
@@ -193,7 +199,7 @@
     }
 
     .left-content h1 {
-        font-size: 2rem;
+        font-size: 22px;
     }
 
     .left-content p {

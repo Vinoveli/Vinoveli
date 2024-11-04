@@ -59,7 +59,7 @@ const MainPortfolioMarnaveli = () => {
 
     return (
         <>
-            <h1 className="Portfolio-title">Portfolio</h1>
+            <h1 className="Portfolio-title">Our Brands</h1>
 
             <div className="product-display-container">
                 <div className="carousel-container">
@@ -92,8 +92,7 @@ const MainPortfolioMarnaveli = () => {
                     </div>
                     <div className="description">
                         <p>
-                            In a country, where the wine production counts more than thousands of years, the first 
-                            Georgian wine brandy appears only in the 19th century and is connected to David Sarajishvili’s name...
+                        For over 20 years, Marnaveli has been redefining Georgian wine, blending ancient traditions with the precision of modern winemaking. By selecting the best grapes from Georgia's varied terroir and using advanced techniques, each bottle tells the story of our heritage in every sip. From crisp whites to bold ambers, Marnaveli’s wines are crafted to perfection, celebrated worldwide for their character and authenticity. Available across Europe, the U.S., and Asia, Marnaveli brings the true spirit of Georgian wine to your table, honoring the past while shaping the future of winemaking
                         </p>
                     </div>
                     <div className="explore-button">

@@ -31,7 +31,10 @@ The history of Sarajishvili dates back to 1884 when David Sarajishvili establish
 
 Sarajishvili quickly expanded across the Russian Empire and Europe, opening distilleries and warehouses. The company offered a wide range of products, including cognac, vodka, wine, liqueur, rum, and absinthe. Its first specialized store, or "boutique," opened in Tbilisi in 1903.
 
-In 1909, France passed a decree restricting the use of the term "cognac" to the Charente region, prompting Sarajishvili to change its labeling to "wine brandy" while maintaining the same production methods. Between 1889 and 1912, Sarajishvili brandy won gold medals at exhibitions in Paris, Brussels, and Chicago. In 1913, the company gained the prestigious title of “Provider to the Russian Emperor’s House.”
+
+       </p>
+       <p style={{ textAlign:'left', fontSize:'18px',}}>
+       In 1909, France passed a decree restricting the use of the term "cognac" to the Charente region, prompting Sarajishvili to change its labeling to "wine brandy" while maintaining the same production methods. Between 1889 and 1912, Sarajishvili brandy won gold medals at exhibitions in Paris, Brussels, and Chicago. In 1913, the company gained the prestigious title of “Provider to the Russian Emperor’s House.”
 
 During the Soviet period, the factory was nationalized and renamed the "Tbilisi Cognac Factory." Despite changes in ownership, it continued producing high-quality spirits. The current factory, built between 1939 and 1954, housed unique reserves from various Georgian regions.
 

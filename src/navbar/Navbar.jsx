@@ -74,7 +74,7 @@ const Navbar = ({ scrollToSection, historyRef, portfolioRef, productsRef, distri
         {isHomePage ? (
           <ul className="navbar-navItemsOverlay">
             <li><a onClick={() => handleOverlayClick(historyRef)}>HISTORY</a></li>
-            <li><a onClick={() => handleOverlayClick(portfolioRef)}>OUR BRANDS</a></li>
+            <li><a onClick={() => handleOverlayClick(portfolioRef)}>PORTFOLIO</a></li>
             <li><a onClick={() => handleOverlayClick(productsRef)}>PRODUCTS</a></li> {/* Scroll to ProductsDisplay */}
             <li><a onClick={() => handleOverlayClick(distributionRef)}>DISTRIBUTION</a></li> {/* Scroll to TwoBackgrounds */}
             <li><a href="/about-us">ABOUT US</a></li>

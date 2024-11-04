@@ -12,7 +12,7 @@ import riBackground from '../assets/Rhode-Island.webp';
 import msWalker from '../assets/UntitledDesign.png';
 import affinity from '../assets/partner3.png';
 import washington from '../assets/WashingtonDC.jpeg'
-
+import cellars from '../assets/new-logo3.png'
 const Distributor = () => {
     const { statename } = useParams();
 
@@ -66,20 +66,24 @@ const Distributor = () => {
                 content: "370 Atlantic Ave, Freeport, NY 11520",
                 logo: msWalker,
                 email: 'info@affinitybrandsus.com',
-                website: 'affinitybrandsus.com/',
+                website: 'affinitybrandsus.com',
                 phone: '+1 (516) 385-1041',
             },
             
         ],
         'washington': [{
-            title: 'Washington distributor'
+            title: "Rhode Island Distributor",
+            content: "16 Commercial Way Warren, RI 02885",
+            phone: '401.247.0646',
+            logo: cellars,
+            website: 'https://www.otcwines.com/',
         }],
         'rhode-island': [
             {
                 title: "Rhode Island Distributor",
                 content: "16 Commercial Way Warren, RI 02885",
                 phone: '401.247.0646',
-                logo: affinity,
+                logo: msWalker,
                 website: 'mswalker.com',
             },
         ],
@@ -109,7 +113,12 @@ const Distributor = () => {
             return "Distributor of Marnaveli";
         } else if (logo === affinity) {
             return "Distributor of Sarajishvili";
-        } else {
+        }
+        
+        else if (logo === cellars) {
+            return "Distributor of Marnaveli";
+        }
+        else {
             return null;
         }
     };

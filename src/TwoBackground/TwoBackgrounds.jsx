@@ -32,7 +32,7 @@ const TwoBackgrounds = () => {
         { name: 'Illinois', value: 'illinois', image: illinoisImg },
         { name: 'Virginia', value: 'virginia', image: virginiaImg },
         { name: 'Maryland', value: 'maryland', image: marylandImg },
-        { name: 'Washington D.C', value: 'washington-dc', image: washingtonDcImg },
+        { name: 'Washington D.C', value: 'washington', image: washingtonDcImg },
     ];
 
     // Reset image when dropdown is closed

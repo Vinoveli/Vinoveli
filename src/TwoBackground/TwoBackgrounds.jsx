@@ -44,10 +44,11 @@ const TwoBackgrounds = () => {
 
     return (
         <>
+            <h1 className="Portfolio-title" style={{marginBottom:'-7rem'}}>Distribution</h1>
+
             <div className="image-container">
                 <div className="overlay-content">
                     <div className="left-content">
-                        <h1>Distribution</h1>
                         <p>
                             Vinoveli operates across seven states, partnering with major stores and fine dining restaurants to bring our exceptional Georgian wines to a diverse audience. Our strategic collaborations ensure that our premium selections are readily available, offering a taste of Georgia’s rich winemaking heritage in key markets across the country.
                         </p>

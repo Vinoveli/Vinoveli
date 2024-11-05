@@ -16,13 +16,13 @@ const PartnersMain = () => {
           <div className='Partners-Partners'>
             {/* First Row of Partners */}
             <div className='Partners-row'>
-              <a href="/partner/1" className="partner-link">
+              <a href="https://mswalker.com" className="partner-link">
                 <img src={newMsWalker} alt="Ms. Walker" className="partner-logo" />
               </a>
-              <a href="/partner/2" className="partner-link">
+              <a href="https://www.otcwines.com" className="partner-link">
                 <img src={partner4} alt="Partner 2" className="partner-logo" />
               </a>
-              <a href="/partner/3" className="partner-link">
+              <a href="https://affinitybrandsus.com" className="partner-link">
                 <img src={partner3} alt="Partner 3" className="partner-logo" />
               </a>
             </div>

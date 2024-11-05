@@ -3,7 +3,7 @@ import './History.css';
 import rollingImage from '../../assets/design.png';
 import qvevri from '../../assets/qvevri.png';
 import { Link } from 'react-router-dom';
-import animation from '../../assets/animation/Vinoveli-animation-reddish-purple-sample-2.gif';
+import animation from '../../assets/animation/Vinoveli-animation-without-bg.gif';
 
 const History = () => {
   return (

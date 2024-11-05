@@ -11,8 +11,12 @@ import maBackground from '../assets/MA.jpeg';
 import riBackground from '../assets/Rhode-Island.webp';
 import msWalker from '../assets/UntitledDesign.png';
 import affinity from '../assets/partner3.png';
-import washington from '../assets/WashingtonDC.jpeg'
+import chicago from '../assets/Chicago.jpeg';
+import dc from '../assets/DC.jpg';
+import maryland from '../assets/Maryland.jpeg';
+import virginia from '../assets/virginia.jpg'
 import cellars from '../assets/new-logo3.png'
+
 const Distributor = () => {
     const { statename } = useParams();
 
@@ -21,8 +25,12 @@ const Distributor = () => {
         'new-york': backgroundImage,
         'new-jersey': backgroundImage,
         'rhode-island': riBackground,
-        'washington': washington,
+        'washington': dc,
         default: backgroundImage,
+        'virginia':virginia,
+        'maryland': maryland,
+        'chicago':chicago,
+        
     };
 
     const distributorInfo = {

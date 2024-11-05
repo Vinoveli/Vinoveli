@@ -49,14 +49,6 @@ const MainPortfolioMarnaveli = () => {
         return () => clearTimeout(transitionTimeout);
     }, [currentIndex]);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            nextImage();
-        }, 5000); // Change the image every 5 seconds
-
-        return () => clearInterval(interval); // Cleanup the interval on component unmount
-    }, []);
-
     return (
         <>
             <h1 className="Portfolio-title">Our Brands</h1>

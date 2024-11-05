@@ -17,11 +17,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <div className="footer-bottom-left">
+        {/* <div className="footer-bottom-left">
           <a href="https://www.otcwines.com/">Old Town Cellars</a>
           <a href="mswalker.com">MS Walker</a>
           <a href="affinitybrandsus.com">Affinity</a>
-        </div>
+        </div> */}
         <div className="footer-bottom-right">
             <p>© 2024 VINOVELI </p>
             <p>ALL RIGHTS RESERVED</p>

@@ -90,7 +90,7 @@ const Navbar = ({ scrollToSection, historyRef, portfolioRef, productsRef, distri
         {isHomePage ? (
           <>
             <li className="navbar-navItem"><a onClick={() => scrollToSection(historyRef)}>HISTORY</a></li>
-            <li className="navbar-navItem"><a onClick={() => scrollToSection(portfolioRef)}>OUR BRANDS</a></li>
+            <li className="navbar-navItem"><a onClick={() => scrollToSection(portfolioRef)}>PORTFOLIO</a></li>
             <li className="navbar-navItem"><a onClick={() => handleOverlayClick(productsRef)}>PRODUCTS</a></li> {/* Scroll to ProductsDisplay */}
             <li className="navbar-navItem"><a onClick={() => handleOverlayClick(distributionRef)}>DISTRIBUTION</a></li> {/* Scroll to TwoBackgrounds */}
             <li className="navbar-navItem"><a href="/about-us">ABOUT US</a></li>

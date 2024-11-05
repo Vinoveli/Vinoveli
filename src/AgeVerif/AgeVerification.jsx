@@ -3,6 +3,7 @@ import './AgeVerification.css'; // Import CSS for styling
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import Cookies from 'js-cookie'; // Import js-cookie
 import Emblem from '../assets/Emblem-Escarlet.png';
+import BackgroundImage from '../assets/Leader.svg'; // Import the background image
 
 const AgeVerificationPopup = ({ onClose }) => {
   const [isFading, setIsFading] = useState(false);
@@ -29,7 +30,15 @@ const AgeVerificationPopup = ({ onClose }) => {
   };
 
   return (
-    <div className={`age-popup-overlay ${isFading ? 'fade-out' : ''}`}>
+    <div
+      className={`age-popup-overlay ${isFading ? 'fade-out' : ''}`}
+      style={{
+        backgroundImage: `url(${BackgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
       <div className="age-popup-content">
         <div className="age-overlay-text">
           <img src={Emblem} alt="Emblem" />

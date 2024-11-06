@@ -1,6 +1,5 @@
 import React from 'react';
-import MarnaveliBottleBackgrounds from '../Marnaveli/Marnaveli-Bottle-Backgrounds';
-
+import AboutUsPictures from './AboutUsCarousel';
 const AboutUs = () => {
   return (
     <>
@@ -32,7 +31,7 @@ Join us at Vinoveli as we continue to bridge Georgia’s ancient winemaking trad
         </p>
       </div>
 
-      <MarnaveliBottleBackgrounds/>
+      <AboutUsPictures/>
       
       <div style={{ textAlign: 'left', width:'80%', margin:'auto' }}>
         <h1

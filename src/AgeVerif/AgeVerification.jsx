@@ -41,8 +41,8 @@ const AgeVerificationPopup = ({ onClose }) => {
     >
       <div className="age-popup-content">
         <div className="age-overlay-text">
-          <img src={Emblem} alt="Emblem" />
-          <h1>Are you over 18?</h1>
+          {/* <img src={Emblem} alt="Emblem" /> */}
+          <h1>Are you 21?</h1>
           <div className="age-button-container">
             <button onClick={handleYesClick}>Yes</button>
             <button onClick={handleNoClick}>No</button>

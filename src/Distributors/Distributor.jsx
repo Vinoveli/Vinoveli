@@ -16,7 +16,7 @@ import dc from '../assets/DC.jpg';
 import maryland from '../assets/Maryland.jpeg';
 import virginia from '../assets/virginia.jpg'
 import cellars from '../assets/new-logo3.png'
-
+import illinois from '../assets/Chicago.jpeg'
 const Distributor = () => {
     const { statename } = useParams();
 
@@ -26,10 +26,11 @@ const Distributor = () => {
         'new-jersey': backgroundImage,
         'rhode-island': riBackground,
         'washington': dc,
-        default: backgroundImage,
+        default: illinois,
         'virginia':virginia,
         'maryland': maryland,
         'chicago':chicago,
+        'illinois':illinois
         
     };
 
@@ -41,6 +42,10 @@ const Distributor = () => {
                 phone: '617.776.6700',
                 logo: msWalker,
                 website: 'mswalker.com',
+            },
+        ],
+        illinois: [
+            {
             },
         ],
         'new-york': [

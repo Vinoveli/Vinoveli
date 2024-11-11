@@ -19,7 +19,7 @@ const PartnersMain = () => {
               <a href="https://mswalker.com" className="partner-link">
                 <img src={newMsWalker} alt="Ms. Walker" className="partner-logo" />
               </a>
-              <a href="https://www.otcwines.com" className="partner-link">
+              <a href="https://vinoveli.net" className="partner-link">
                 <img src={partner4} alt="Partner 2" className="partner-logo" />
               </a>
               <a href="https://affinitybrandsus.com" className="partner-link">

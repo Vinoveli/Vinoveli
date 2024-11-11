@@ -28,6 +28,15 @@
   margin-bottom: 15rem;
 }
 
+.Partner-overlay h2 {
+  font-size: 3rem;
+  font-family: "STIX Two Text", serif;
+  color: rgba(114, 51, 38, 1);
+
+}
+
+
+
 .Partner-overlay p {
   margin: 0;
   font-size: 50px;

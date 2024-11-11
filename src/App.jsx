@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useRef, useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation  } from 'react-router-dom';
 import Navbar from './navbar/Navbar';
 import MainBackground from './MainPage/MainBackground/MainBackground';
 import History from './MainPage/HistoryOf/History';
@@ -21,6 +21,9 @@ import HistoryPage from './HistoryPage/HistoryPage';
 import Distributor from './Distributors/Distributor';
 import AgeVerificationPopup from './AgeVerif/AgeVerification';
 import ScrollReveal from './ScrollReveal';
+import HomePage from './HomePage/Homepage';
+
+
 
 const App = () => {
   const historyRef = useRef(null);
@@ -29,6 +32,28 @@ const App = () => {
   const distributionRef = useRef(null);
   const footerRef = useRef(null);
   const [isPopupVisible, setPopupVisible] = useState(true);
+  const [homeScrollPosition, setHomeScrollPosition] = useState(0);
+
+  const location = useLocation();
+  const prevLocation = useRef(location);
+
+  useEffect(() => {
+    if (prevLocation.current.pathname !== location.pathname) {
+      if (prevLocation.current.pathname === '/') {
+        // Save scroll position when navigating away from home page
+        setHomeScrollPosition(window.scrollY);
+      }
+
+      if (location.pathname === '/') {
+        // Scroll restoration is handled in HomePage component
+      } else {
+        // Scroll to top when navigating to a new route
+        window.scrollTo(0, 0);
+      }
+
+      prevLocation.current = location;
+    }
+  }, [location]);
 
   const handlePopupClose = () => {
     setPopupVisible(false);
@@ -40,7 +65,7 @@ const App = () => {
         sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
       const startPosition = window.pageYOffset;
       const distance = targetPosition - startPosition;
-      const duration = 4000; // Duration in milliseconds (adjust as needed)
+      const duration = 400; // Duration in milliseconds (adjust as needed)
       let startTime = null;
 
       const easeInOutQuad = (t, b, c, d) => {
@@ -70,74 +95,58 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <>
       {isPopupVisible && <AgeVerificationPopup onClose={handlePopupClose} />}
 
-      <ScrollTop />
-      <div>
-        <Navbar
-          scrollToSection={scrollToSection}
-          historyRef={historyRef}
-          portfolioRef={portfolioRef}
-          productsRef={productsRef}
-          distributionRef={distributionRef}
-          footerRef={footerRef}
+      <Navbar
+        scrollToSection={scrollToSection}
+        historyRef={historyRef}
+        portfolioRef={portfolioRef}
+        productsRef={productsRef}
+        distributionRef={distributionRef}
+        footerRef={footerRef}
+      />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <HomePage
+              homeScrollPosition={homeScrollPosition}
+              historyRef={historyRef}
+              portfolioRef={portfolioRef}
+              productsRef={productsRef}
+              distributionRef={distributionRef}
+              footerRef={footerRef}
+            />
+          }
         />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-              <MainBackground />
-              <ScrollReveal>
-                <div ref={historyRef}>
-                  <History />
-                </div>
-              </ScrollReveal>
-              <ScrollReveal>
-                <div ref={portfolioRef}>
-                  <MainPortfolioMarnaveli />
-                </div>
-              </ScrollReveal>
-              <ScrollReveal>
-                <MainPortfolioSarajishvili />
-              </ScrollReveal>
-              <ScrollReveal>
-                <div ref={productsRef}>
-                  <ProductsMain />
-                </div>
-              </ScrollReveal>
-              <ScrollReveal>
-                <ProductsDisplay />
-              </ScrollReveal>
-              <ScrollReveal>
-                <div ref={distributionRef}>
-                  <TwoBackgrounds />
-                </div>
-              </ScrollReveal>
-              <ScrollReveal>
-                <PartnersMain />
-              </ScrollReveal>
-              <div ref={footerRef}>{/* Footer reference placeholder */}</div>
-            </>
-            }
-          />
-          <Route path="/sarajishvili" element={<Sarajishvili />} />
-          <Route path="/marnaveli" element={<Marnaveli />} />
-          <Route path="/product/:productId" element={<ProductSeparate />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/partner/:partnerId" element={<Partnerspage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route
-            path="/distributor/:statename"
-            element={<Distributor />}
-          />
-        </Routes>
-        <ScrollToTopButton />
-      </div>
+        <Route path="/sarajishvili" element={<Sarajishvili />} />
+        <Route path="/marnaveli" element={<Marnaveli />} />
+        <Route path="/product/:productId" element={<ProductSeparate />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/partner/:partnerId" element={<Partnerspage />} />
+        <Route path="/history" element={<HistoryPage />} />
+        <Route
+          path="/distributor/:statename"
+          element={<Distributor />}
+        />
+        {/* Add a catch-all route or a 404 page if needed */}
+      </Routes>
+
+      {/* Reintroduce ScrollToTopButton if it does not interfere */}
+      <ScrollToTopButton />
+
       <Footer />
-    </Router>
+    </>
   );
 };
 
-export default App;
+// Wrap App component with Router to use useLocation hook
+const AppWithRouter = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default AppWithRouter;

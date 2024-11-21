@@ -35,7 +35,7 @@ const HistoryPage = () => {
       </div>
       <div className="main-vessel-image" style={{ paddingBottom:'10px'}}>
           <img src={clayVessel} alt="Qvevri" />
-          <p style={{width:'120px', marginLeft:'100px', color:'rgba(114, 51, 38, 1)'}}>The earliest  wine Jar
+          <p style={{width:'140px', marginLeft:'100px', color:'rgba(114, 51, 38, 1)'}}>The earliest  wine Jar
           (8000 - 6000 BC)</p>
         </div>
       <div className="main-scrolling-image-container">

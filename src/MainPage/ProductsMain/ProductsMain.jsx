@@ -6,14 +6,14 @@ import backgroundImage from '../../assets/Background.jpg';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './ProductsMain.css'; // Add custom styles here
-import Kindzmarauli from '../../assets/Kindzmarauli.png'
-import Kisi_Qvevri from '../../assets/Kisi_Qvevri.png'
-import Rkatsiteli from '../../assets/Rkatsiteli.png'
-import Rkatsiteli_Oak from '../../assets/Rkatsiteli_Oak.png'
-import Rkatsiteli_Qvevri from '../../assets/Rkatsiteli_Qvevri.png'
-import Saperavi from '../../assets/Saperavi.png'
-import Saperavi_Oak from '../../assets/Saperavi_Oak.png'
-import Saperavi_Qvevri from '../../assets/Saperavi_Qvevri.png'
+import Kindzmarauli from '../../assets/marnaveliWine/Kindzmarauli.png'
+import Kisi_Qvevri from '../../assets/marnaveliWine/Kisi_Qvevri.png'
+import Rkatsiteli from '../../assets/marnaveliWine/Rkatsiteli.png'
+import Rkatsiteli_Oak from '../../assets/marnaveliWine/Rkatsiteli_Oak.png'
+import Rkatsiteli_Qvevri from '../../assets/marnaveliWine/Rkatsiteli_Qvevri.png'
+import Saperavi from '../../assets/marnaveliWine/Saperavi.png'
+import Saperavi_Oak from '../../assets/marnaveliWine/Saperavi_Oak.png'
+import Saperavi_Qvevri from '../../assets/marnaveliWine/Saperavi_Qvevri.png'
 import georgiaMap from '../../assets/GE.svg'
 
 const ProductsMain = () => {
@@ -21,12 +21,12 @@ const ProductsMain = () => {
     const [isTransitioning, setIsTransitioning] = useState(false);
 
     const images = [
-        Kindzmarauli,
-        Kisi_Qvevri,
         Rkatsiteli,
         Rkatsiteli_Oak,
         Rkatsiteli_Qvevri,
+        Kisi_Qvevri,
         Saperavi,
+        Kindzmarauli,
         Saperavi_Oak,
         Saperavi_Qvevri
     ];

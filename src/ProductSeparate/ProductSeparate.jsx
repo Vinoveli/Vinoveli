@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import './ProductSeparate.css';
-import Saperavi from '../assets/Saperavi.png';
-import Rkatsiteli from '../assets/Rkatsiteli.png';
+import Saperavi from '../assets/marnaveliWine/Saperavi.png';
+import Rkatsiteli from '../assets/marnaveliWine/Rkatsiteli.png';
 import TechSheets from '../assets/TechSheets.pdf';
 import Sarajishvili1941 from '../assets/sarajishviliWine/Sarajishvili-Vintage-B-1941.jpg'
 import Sarajishvili1953 from '../assets/sarajishviliWine/Sarajishvili-Vintage-B-8.jpg'
@@ -27,13 +27,13 @@ import Sarajishvili1947 from '../assets/sarajishviliWine/Sarajishvili-Vintage-B-
 import Sarajishvili1949 from '../assets/sarajishviliWine/Sarajishvili-Vintage-B-27.jpg'
 import Sarajishvili1950 from '../assets/sarajishviliWine/Sarajishvili-Vintage-B-28.jpg'
 import Sarajishvili1952 from '../assets/sarajishviliWine/Sarajishvili-Vintage-B-29.jpg'
-import RkatsiteliOak from '../assets/Rkatsiteli_Oak.png'
-import Kisi_Qvevri from '../assets/Kisi_Qvevri.png'
-import Kindzmarauli from '../assets/Kindzmarauli.png'
-import Rkatsiteli_Qvevri from '../assets/Rkatsiteli_Qvevri.png'
-import Saperavi_Oak from '../assets/Saperavi_Oak.png'
+import RkatsiteliOak from '../assets/marnaveliWine/Rkatsiteli_Oak.png'
+import Kisi_Qvevri from '../assets/marnaveliWine/Kisi_Qvevri.png'
+import Kindzmarauli from '../assets/marnaveliWine/Kindzmarauli.png'
+import Rkatsiteli_Qvevri from '../assets/marnaveliWine/Rkatsiteli_Qvevri.png'
+import Saperavi_Oak from '../assets/marnaveliWine/Saperavi_Oak.png'
 import trilogy from '../assets/sarajishviliWine/trilogy.jpg'
-import Saperavi_Qvevri from '../assets/Saperavi_Qvevri.png'
+import Saperavi_Qvevri from '../assets/marnaveliWine/Saperavi_Qvevri.png'
 import vs from '../assets/sarajishviliWine/VS.jpg'
 import vsop from '../assets/sarajishviliWine/VSOP.jpg'
 import xo from '../assets/sarajishviliWine/XO.jpg'

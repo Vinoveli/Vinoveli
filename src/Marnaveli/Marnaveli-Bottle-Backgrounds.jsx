@@ -22,15 +22,17 @@ const MarnaveliBottleBackgrounds = () => {
     // picture3,
     // picture4,
     picture5,
+    picture11,
     picture6,
     picture7,
+    picture10,
+
+    picture14,
+    picture13,
+
     picture8,
     picture9,
-    picture10,
-    picture11,
     picture12,
-    picture13,
-    picture14,
 
   ];
 

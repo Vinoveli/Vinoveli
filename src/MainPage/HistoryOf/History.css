@@ -31,9 +31,12 @@
 
 /* See More Button */
 .see-more-button {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: rgba(114, 51, 38, 1);
     border: none;
-    color: rgba(114, 51, 38, 1);
+    /* color: rgba(114, 51, 38, 1); */
+    color: white;
+
     border-radius: 2px;
     padding: 10px 20px;
     font-size: 1rem;
@@ -44,8 +47,8 @@
 }
 
 .see-more-button:hover {
-    background-color: rgba(114, 51, 38, 1);
-    color: white;
+    background-color:white;
+    color:  rgba(114, 51, 38, 1);
 }
 
 /* GIF Animation */

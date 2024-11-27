@@ -57,16 +57,6 @@ const productsData = {
       'All grapes were hand-picked, and the healthiest clusters were carefully selected. The clusters were destemmed, crushed, and gently pressed. To preserve and enhance the aromatic profile of the Rkatsiteli variety, the juice was clarified and inoculated with specially selected yeast. Fermentation lasted about 7 days at a temperature of 12-14°C (54-57°F). Malolactic conversion was suppressed to retain fresh characteristics. After fermentation, the wine was racked from the lees and transferred to 4th use French oak barrels where the wine matured for 6 months.',
       'Tasting Notes:',
       'Ripe apple, green melon, white peach, and honeysuckle aromas intertwine with light hints of toast, hazelnut, vanilla, and caramel. Creamy texture on the palate with ripe fruit flavors and lingering toasty finish.',
-      'Service Temperature:',
-      'Lightly chilled 10-13°C (50-55°F)',
-      'Food Pairings:',
-      'Young cheeses, creamy soups, buttery seafood dishes, roasted chicken, fried chicken, and cream sauces.',
-      'Technical Information:',
-      'Grape Variety: 100% Rkatsiteli',
-      'Alcohol by Volume: 13.5%',
-      'Residual Sugar: 0.8 g/L',
-      'Titratable Acidity: 4.4 g/L',
-      'pH: 3.51',
     ],
     pdf: RkatsiteliOakpdf, // Ensure you have imported this PDF
   },
@@ -79,16 +69,6 @@ const productsData = {
       'Aromatic white grapes from the Kakheti region, Kisi and Khikhvi, were vinified separately in Qvevri. The grapes were destemmed and crushed directly into qvevri and inoculated with specially selected yeast. The natural fermentation temperature in qvevri ranged from 25-30°C (77-86°F), and the fermentation lasted for 5-7 days. Upon completion of fermentation, the qvevri was topped up and sealed. The wine continued to mature for 6 months with full skin contact. After 6 months, the wine was removed from qvevri, pressed, and stored in stainless steel tanks to preserve fresh aromatics.',
       'Tasting Notes:',
       'Golden amber color with aromas of white cherry, baked peach, dried apricot, dried wildflowers, fresh walnuts, and jasmine tea. The palate brings out fresh citrus and coriander spice flavors with fine tannins and substantial body.',
-      'Service Temperature:',
-      'Lightly chilled 10-13°C (50-55°F)',
-      'Food Pairings:',
-      'All types of cheeses, chickpea dishes, roasted chicken and pork, creamy and nutty sauces.',
-      'Technical Information:',
-      'Grape Variety: 60% Kisi, 40% Khikhvi',
-      'Alcohol by Volume: 12.5%',
-      'Residual Sugar: 0.2 g/L',
-      'Titratable Acidity: 6.3 g/L',
-      'pH: 3.32',
     ],
     pdf: KisiKhikhvipdf, // Ensure you have imported this PDF
   },
@@ -111,16 +91,6 @@ const productsData = {
       'Top quality Rkatsiteli grapes were collected from villages throughout the Kakheti wine region. The clusters were destemmed, crushed, and gently pressed. To preserve and enhance the aromatic profile of the Rkatsiteli variety, the juice was clarified and inoculated with specially selected yeast. Fermentation lasted about 7 days at a temperature of 12-14°C (54-57°F). After fermentation, the wine was racked from the lees and stored in stainless steel tanks before bottling.',
       'Tasting Notes:',
       'Delicate aromas of spring blossoms, meadow grass, juicy lemon, fresh apricot, crisp apple, and pear. This wine has a smooth, round texture that is enlivened by zesty citrus notes on the palate. Light body and clean finish.',
-      'Service Temperature:',
-      'Chilled 7-10°C (45-50°F)',
-      'Food Pairings:',
-      'Young cheeses, fresh salads, shellfish, white-fleshed fish, herbed chicken, and light cream sauces.',
-      'Technical Information:',
-      'Grape Variety: 100% Rkatsiteli',
-      'Alcohol by Volume: 13.0%',
-      'Residual Sugar: 1.4 g/L',
-      'Titratable Acidity: 5.4 g/L',
-      'pH: 3.4',
     ],
     pdf: Rkatsitelipdf, // Ensure you have imported this PDF
   },
@@ -144,16 +114,6 @@ const productsData = {
       'Saperavi grapes were harvested at 22-28 Brix to provide ripeness and structure. Grapes were crushed and destemmed. The must was then inoculated with specially selected yeast to emphasize the varietal aromas of the Saperavi grapes. The fermentation was conducted in a temperature-controlled environment at 22°C (71-72°F for 5-6 days with periodic punch downs and pump overs. When the primary fermentation finished, the wine was pressed and transferred to stainless steel tanks where malolactic fermentation took place. The wine was then moved to 4th use French oak barrels and aged for 9 months.',
       'Tasting Notes:',
       'Deep ruby color with violet hue. Rich with aromas of violets, juicy black cherry, ripe blackberry, baked black plum with light touches of vanilla, cedar, earth and dark chocolate. Intense black fruit flavors on the palate are complemented by velvety texture and a complex, long-lasting finish.',
-      'Service Temperature:',
-      'Room temperature 15-18°C (59-64°F)',
-      'Food Pairings:',
-      'Grilled steaks, braised meats, hearty stews, aged cheeses, barbecue and mushroom sauces.',
-      'Technical Information:',
-      'Grape Variety: 100% Saperavi',
-      'Alcohol by Volume: 13.2%',
-      'Residual Sugar: 3.2 g/L',
-      'Titratable Acidity: 5.5 g/L',
-      'pH: 3.61',
     ],
     pdf: Saperavipdf, // Ensure you have imported or defined this PDF
   },
@@ -166,16 +126,6 @@ const productsData = {
       'Saperavi grapes were harvested at 22-28 Brix to provide ripeness and structure. Grapes were crushed and destemmed. The must was then inoculated with specially selected yeast to emphasize the varietal aromas of the Saperavi grapes. The fermentation was conducted in a temperature-controlled environment at 22°C (71-72°F) for 5-6 days with periodic punch downs and pump overs. When the primary fermentation finished, the wine was pressed and transferred to stainless steel tanks where malolactic fermentation took place. The wine was then moved to 4th use French oak barrels and aged for 9 months.',
       'Tasting Notes:',
       'Deep ruby color with violet hue. Rich with aromas of violets, juicy black cherry, ripe blackberry, baked black plum with light touches of vanilla, cedar, earth, and dark chocolate. Intense black fruit flavors on the palate are complemented by velvety texture and a complex, long-lasting finish.',
-      'Service Temperature:',
-      'Room temperature 15-18°C (59-64°F)',
-      'Food Pairings:',
-      'Grilled steaks, braised meats, hearty stews, aged cheeses, barbecue, and mushroom sauces.',
-      'Technical Information:',
-      'Grape Variety: 100% Saperavi',
-      'Alcohol by Volume: 13.2%',
-      'Residual Sugar: 3.2 g/L',
-      'Titratable Acidity: 5.5 g/L',
-      'pH: 3.61',
     ],
     pdf: SaperaviOakpdf, 
   },
@@ -612,7 +562,8 @@ const ProductSeparate = () => {
       </div>
       <div className="text-section">
         {/* Display the title above the text */}
-        <h1>{product.title}</h1>
+        <h1 style={{ fontFamily: "Carattere, cursive" }}>{product.title}</h1>
+
         {product.text.map((line, index) => {
           const isTitle = line.endsWith(':');
           return isTitle ? (

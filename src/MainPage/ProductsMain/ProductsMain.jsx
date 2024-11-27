@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Sarajishvili from '../../assets/Sarajishvili.jpg'
-import SarajishviliLogo from '../../assets/sarajishvili.png'
-import MarnaveliLogo from '../../assets/MARNAVELI.png'
-import backgroundImage from '../../assets/Background.jpg';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './ProductsMain.css'; // Add custom styles here
@@ -16,17 +12,18 @@ import Saperavi_Oak from '../../assets/marnaveliWine/Saperavi_Oak.png'
 import Saperavi_Qvevri from '../../assets/marnaveliWine/Saperavi_Qvevri.png'
 import georgiaMap from '../../assets/GE.svg'
 
+
 const ProductsMain = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isTransitioning, setIsTransitioning] = useState(false);
 
     const images = [
+        Kindzmarauli,
+        Kisi_Qvevri,
         Rkatsiteli,
         Rkatsiteli_Oak,
         Rkatsiteli_Qvevri,
-        Kisi_Qvevri,
         Saperavi,
-        Kindzmarauli,
         Saperavi_Oak,
         Saperavi_Qvevri
     ];

@@ -2,7 +2,7 @@
 .background-sections {
   position: relative;
   width: 100%;
-  min-height: 100vh; /* Use min-height instead of fixed height */
+  min-height: 80vh; /* Use min-height instead of fixed height */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -26,16 +26,19 @@
   font-size: 3.5rem;
   font-weight: 300;
   text-align: center;
-  width: 80%;
+  width:80%;
   margin: 0 auto -5rem auto;
   font-family: "STIX Two Text", serif;
-
 }
 
-.content {
-  width: 60%;
-}
 
+
+.content2{
+  width:60%;
+  padding:10rem 10rem; 
+
+  /* თუ გინდა სივრცცეებიგაზარდე */
+}
 .description-mainbackground {
   color: white;
   margin: 1rem 0;
@@ -62,6 +65,7 @@
   margin-left: 5px;
   vertical-align: middle;
 }
+
 
 /* Media Queries */
 

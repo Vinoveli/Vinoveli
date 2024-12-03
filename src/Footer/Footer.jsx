@@ -17,15 +17,18 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        {/* <div className="footer-bottom-left">
+        {/* Uncomment the following block if you want to include these links */}
+        {/* 
+        <div className="footer-bottom-left">
           <a href="https://www.otcwines.com/">Old Town Cellars</a>
-          <a href="mswalker.com">MS Walker</a>
-          <a href="affinitybrandsus.com">Affinity</a>
-        </div> */}
+          <a href="https://mswalker.com">MS Walker</a>
+          <a href="https://affinitybrandsus.com">Affinity</a>
+        </div> 
+        */}
         <div className="footer-bottom-right">
-            <p>© 2024 VINOVELI </p>
-            <p>ALL RIGHTS RESERVED</p>
-            </div>
+          <p>© 2024 VINOVELI</p>
+          <p>ALL RIGHTS RESERVED</p>
+        </div>
       </div>
     </footer>
   );

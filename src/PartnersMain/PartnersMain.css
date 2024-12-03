@@ -22,7 +22,7 @@
   background: rgba(250, 248, 245, 1); /* Semi-transparent overlay */
   color: black;
   width: 60%;
-  height: 423px;
+  height: 350px;
   padding: 20px;
   text-align: center;
   margin-bottom: 15rem;
@@ -75,7 +75,7 @@
   .Partner-overlay {
     width: 80%; 
     padding: 10px;
-    height: 623px;
+    height: 500px;
   }
 
   .Partners-row {

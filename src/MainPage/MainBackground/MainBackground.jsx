@@ -82,13 +82,14 @@ const MainBackground = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="overlay">
-        <h1 className="mainbackground-title">
+        
+      <h1 className="mainbackground-title">
           DISCOVER THE WORLD OF GEORGIAN WINE AND BRANDY
         </h1>
-        <div className="content">
+        <div className="content2">
           <p className="description-mainbackground">
             Vinoveli introduces the rich heritage of Georgian wine and brandy to the U.S. market.
-            With a deep commitment to tradition and masterful craftsmanship, we offer an exclusive
+              With a deep commitment to tradition and masterful craftsmanship, we offer an exclusive
             selection of wines and spirits that embody the essence of Georgia. Each bottle tells a
             story of authenticity, passion, and centuries-old winemaking expertise.
           </p>

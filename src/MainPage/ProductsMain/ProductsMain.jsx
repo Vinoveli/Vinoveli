@@ -13,6 +13,8 @@ import Saperavi_Qvevri from '../../assets/marnaveliWine/Saperavi_Qvevri.png'
 import georgiaMap from '../../assets/GE.svg'
 
 
+
+
 const ProductsMain = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isTransitioning, setIsTransitioning] = useState(false);
@@ -27,7 +29,9 @@ const ProductsMain = () => {
         Saperavi_Oak,
         Saperavi_Qvevri
     ];
-  
+
+
+
     const productNames = [
         "Kindzmarauli",
         "Kisi Qvevri",

@@ -1,70 +1,81 @@
 .footer-container {
-    width: 100%;
-    background-color: rgba(114, 51, 38, 1);
-  }
-  
-  .footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 300px;
-    width: 90%;
-    margin: auto;
-  }
-  
+  width: 100%;
+  background-color: rgba(114, 51, 38, 1);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  margin: auto;
+  border-top: 1px solid #cccccce3;
+  padding-top: 10px;
+}
+
+.footer-left,
+.footer-right,
+.footer-bottom-left,
+.footer-bottom-right {
+  font-size: 16px;
+  color: white;
+}
+
+.footer-right h1,
+.footer-right p {
+  font-family: "STIX Two Text", serif;
+  font-weight: 200;
+}
+
+.footer-logoImage {
+  width: 120px;
+  margin-top: 2rem;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-bottom-left {
+  display: flex;
+  gap: 20px; /* Space between the links */
+}
+
+.footer-bottom-left a {
+  color: white;
+  text-decoration: none; /* Remove underline */
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-bottom-left a:hover {
+  color: #f1c40f; /* Change link color on hover */
+}
+
+/* Adjust media query */
+@media (max-width: 768px) {
+  /* Keep .footer-top layout consistent on small screens */
   .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    width: 90%;
-    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .footer-left, .footer-right, .footer-bottom-left, .footer-bottom-right {
-    font-size: 16px;
-    color: white;
+
+  .footer-left,
+  .footer-right,
+  .footer-bottom-left,
+  .footer-bottom-right {
+    margin-bottom: 10px;
   }
-  
-  .footer-right h1, p {
-    font-family: "STIX Two Text", serif;
-    font-weight: 200;
-  }
-  
-  .footer-bottom {
-    border-top: 1px solid #cccccce3;
-    padding-top: 10px;
-  }
-  
-  .footer-logoImage {
-    width: 120px;
-    margin-top: 2rem;
-  }
-  
-  .footer-bottom-left {
-    display: flex;
-    gap: 20px; /* space between the links */
-  }
-  
-  .footer-bottom-left a {
-    color: white;
-    text-decoration: none; /* remove underline */
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  .footer-bottom-left a:hover {
-    color: #f1c40f; /* change link color on hover */
-  }
-  
-  @media (max-width: 768px) {
-    .footer-top, .footer-bottom {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .footer-left, .footer-right, .footer-bottom-left, .footer-bottom-right {
-      margin-bottom: 10px;
-    }
-  }
-  
+}

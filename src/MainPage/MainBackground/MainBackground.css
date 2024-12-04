@@ -27,8 +27,9 @@
   font-weight: 300;
   text-align: center;
   width:80%;
-  margin: 0 auto -5rem auto;
   font-family: "STIX Two Text", serif;
+  margin-top: 10rem;
+  margin-bottom: -5rem;
 }
 
 

@@ -28,32 +28,55 @@ import VSOP from '../../assets/sarajishviliWine/VSOP.jpg';
 import XO from '../../assets/sarajishviliWine/XO.jpg';
 
 
-
+// link: "product/sarajishvili1941",
+// link: "product/sarajishvili1953",
+// link: "product/sarajishvili1955",
+// link: "product/sarajishvili1956",
+// link: "product/sarajishvili1957",
+// link: "product/sarajishvili1958",
+// link: "product/sarajishvili1959",
+// link: "product/sarajishvili1960",
+// link: "product/sarajishvili1964",
+// link: "product/sarajishvili1968",
+// link: "product/sarajishvili1969",
+// link: "product/sarajishvili1970",
+// link: "product/sarajishvili1971",
+// link: "product/sarajishvili1973",
+// link: "product/sarajishvili1976",
+// link: "product/sarajishvili1977",
+// link: "product/sarajishvili1979",
+// link: "product/sarajishvili1980",
+// link: "product/sarajishvili1946",
+// link: "product/trilogy"
+// link: "product/xo"
+// link: "product/vs"
+// link: "product/vsop"
+// link: "product/tikhari"
 const products = [
-  { id: 1, name: "Tikhari", category: "Classic Line", image: Tikhari, description: "Classic Line", size: '700ml', link: "product/tikhari" },
-  { id: 2, name: "Sarajishvili 1941", category: "Vintage Line", image: SarajishviliVintage, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1941", year: 1941 },
-  { id: 3, name: "Sarajishvili 1953", category: "Vintage Line", image: SarajishviliVintage1, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1953", year: 1953 },
-  { id: 4, name: "Sarajishvili 1955", category: "Vintage Line", image: SarajishviliVintage2, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1955", year: 1955 },
-  { id: 5, name: "Sarajishvili 1956", category: "Vintage Line", image: SarajishviliVintage3, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1956", year: 1956 },
-  { id: 6, name: "Sarajishvili 1957", category: "Vintage Line", image: SarajishviliVintage4, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1957", year: 1957 },
-  { id: 7, name: "Sarajishvili 1958", category: "Vintage Line", image: SarajishviliVintage5, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1958", year: 1958 },
-  { id: 8, name: "Sarajishvili 1959", category: "Vintage Line", image: SarajishviliVintage6, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1959", year: 1959 },
-  { id: 9, name: "Sarajishvili 1960", category: "Vintage Line", image: SarajishviliVintage7, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1960", year: 1960 },
-  { id: 10, name: "Sarajishvili 1964", category: "Vintage Line", image: SarajishviliVintage8, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1964", year: 1964 },
-  { id: 11, name: "Sarajishvili 1968", category: "Vintage Line", image: SarajishviliVintage9, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1968", year: 1968 },
-  { id: 12, name: "Sarajishvili 1969", category: "Vintage Line", image: SarajishviliVintage10, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1969", year: 1969 },
-  { id: 13, name: "Sarajishvili 1970", category: "Vintage Line", image: SarajishviliVintage11, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1970", year: 1970 },
-  { id: 14, name: "Sarajishvili 1971", category: "Vintage Line", image: SarajishviliVintage12, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1971", year: 1971 },
-  { id: 15, name: "Sarajishvili 1973", category: "Vintage Line", image: SarajishviliVintage13, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1973", year: 1973 },
-  { id: 16, name: "Sarajishvili 1976", category: "Vintage Line", image: SarajishviliVintage14, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1976", year: 1976 },
-  { id: 17, name: "Sarajishvili 1977", category: "Vintage Line", image: SarajishviliVintage15, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1977", year: 1977 },
-  { id: 18, name: "Sarajishvili 1979", category: "Vintage Line", image: SarajishviliVintage16, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1979", year: 1979 },
-  { id: 19, name: "Sarajishvili 1980", category: "Vintage Line", image: SarajishviliVintage17, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1980", year: 1980 },
-  { id: 20, name: "Sarajishvili 1946", category: "Vintage Line", image: SarajishviliVintage18, description: "Vintage Line", size: '700ml', link: "product/sarajishvili1946", year: 1946 },
-  { id: 21, name: "Trilogy", category: "Unique Line", image: trilogy, description: "Unique Line", size: '700ml', link: "product/trilogy" },
-  { id: 24, name: "XO", category: "Classic Line", image: XO, description: "Classic Line", size: '700ml', link: "product/xo" },
-  { id: 22, name: "VS", category: "Classic Line", image: VS, description: "Classic Line", size: '700ml', link: "product/vs" },
-  { id: 23, name: "VSOP", category: "Classic Line", image: VSOP, description: "Classic Line", size: '700ml', link: "product/vsop" }
+  { id: 1, name: "Tikhari", category: "Classic Line", image: Tikhari, description: "Classic Line", size: '700ml',  },
+  { id: 2, name: "Sarajishvili 1941", category: "Vintage Line", image: SarajishviliVintage, description: "Vintage Line", size: '700ml',  year: 1941 },
+  { id: 3, name: "Sarajishvili 1953", category: "Vintage Line", image: SarajishviliVintage1, description: "Vintage Line", size: '700ml',  year: 1953 },
+  { id: 4, name: "Sarajishvili 1955", category: "Vintage Line", image: SarajishviliVintage2, description: "Vintage Line", size: '700ml',  year: 1955 },
+  { id: 5, name: "Sarajishvili 1956", category: "Vintage Line", image: SarajishviliVintage3, description: "Vintage Line", size: '700ml',  year: 1956 },
+  { id: 6, name: "Sarajishvili 1957", category: "Vintage Line", image: SarajishviliVintage4, description: "Vintage Line", size: '700ml',  year: 1957 },
+  { id: 7, name: "Sarajishvili 1958", category: "Vintage Line", image: SarajishviliVintage5, description: "Vintage Line", size: '700ml',  year: 1958 },
+  { id: 8, name: "Sarajishvili 1959", category: "Vintage Line", image: SarajishviliVintage6, description: "Vintage Line", size: '700ml',  year: 1959 },
+  { id: 9, name: "Sarajishvili 1960", category: "Vintage Line", image: SarajishviliVintage7, description: "Vintage Line", size: '700ml',  year: 1960 },
+  { id: 10, name: "Sarajishvili 1964", category: "Vintage Line", image: SarajishviliVintage8, description: "Vintage Line", size: '700ml',  year: 1964 },
+  { id: 11, name: "Sarajishvili 1968", category: "Vintage Line", image: SarajishviliVintage9, description: "Vintage Line", size: '700ml',  year: 1968 },
+  { id: 12, name: "Sarajishvili 1969", category: "Vintage Line", image: SarajishviliVintage10, description: "Vintage Line", size: '700ml',  year: 1969 },
+  { id: 13, name: "Sarajishvili 1970", category: "Vintage Line", image: SarajishviliVintage11, description: "Vintage Line", size: '700ml',  year: 1970 },
+  { id: 14, name: "Sarajishvili 1971", category: "Vintage Line", image: SarajishviliVintage12, description: "Vintage Line", size: '700ml',  year: 1971 },
+  { id: 15, name: "Sarajishvili 1973", category: "Vintage Line", image: SarajishviliVintage13, description: "Vintage Line", size: '700ml',  year: 1973 },
+  { id: 16, name: "Sarajishvili 1976", category: "Vintage Line", image: SarajishviliVintage14, description: "Vintage Line", size: '700ml',  year: 1976 },
+  { id: 17, name: "Sarajishvili 1977", category: "Vintage Line", image: SarajishviliVintage15, description: "Vintage Line", size: '700ml',  year: 1977 },
+  { id: 18, name: "Sarajishvili 1979", category: "Vintage Line", image: SarajishviliVintage16, description: "Vintage Line", size: '700ml',  year: 1979 },
+  { id: 19, name: "Sarajishvili 1980", category: "Vintage Line", image: SarajishviliVintage17, description: "Vintage Line", size: '700ml',  year: 1980 },
+  { id: 20, name: "Sarajishvili 1946", category: "Vintage Line", image: SarajishviliVintage18, description: "Vintage Line", size: '700ml',  year: 1946 },
+  { id: 21, name: "Trilogy", category: "Unique Line", image: trilogy, description: "Unique Line", size: '700ml',  },
+  { id: 24, name: "XO", category: "Classic Line", image: XO, description: "Classic Line", size: '700ml' },
+  { id: 22, name: "VS", category: "Classic Line", image: VS, description: "Classic Line", size: '700ml' },
+  { id: 23, name: "VSOP", category: "Classic Line", image: VSOP, description: "Classic Line", size: '700ml' }
 ];
 
 const SarajishviliProducts = () => {
@@ -116,7 +139,7 @@ const SarajishviliProducts = () => {
       <div className="product-grid">
         {filteredProducts.map((product) => (
           <div className="product-card" key={product.id}>
-            <Link to={`/${product.link}`}>
+            {/* <Link to={`/${product.link}`}> */}
               <div className="product-image-container">
                 <img src={product.image} alt={product.name} className="product-image" />
               </div>
@@ -125,7 +148,7 @@ const SarajishviliProducts = () => {
                 <p>{product.description}</p>
                 <p>{product.size}</p>
               </div>
-            </Link>
+            {/* </Link> */}
           </div>
         ))}
       </div>

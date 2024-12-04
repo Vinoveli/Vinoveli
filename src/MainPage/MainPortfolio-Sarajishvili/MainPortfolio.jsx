@@ -71,9 +71,9 @@ const MainPortfolioSarajishvili = () => {
                   years in 1887 - produced the first product.
                 </p>
               </div>
-              {/* <div className="mainPortfolio-explore-button">
+              <div className="mainPortfolio-explore-button">
                 <button onClick={() => navigate("/sarajishvili")}>EXPLORE PRODUCTS</button>
-              </div> */}
+              </div>
             </div>
 
             {/* Right Side - Carousel Section */}

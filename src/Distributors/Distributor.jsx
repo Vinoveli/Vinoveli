@@ -26,7 +26,6 @@ const Distributor = () => {
         'new-jersey': backgroundImage,
         'rhode-island': riBackground,
         'washington': dc,
-        default: illinois,
         'virginia':virginia,
         'maryland': maryland,
         'chicago':chicago,
@@ -44,10 +43,7 @@ const Distributor = () => {
                 website: 'mswalker.com',
             },
         ],
-        illinois: [
-            {
-            },
-        ],
+       
         'new-york': [
             {
                 title: "MsWalker",
@@ -81,6 +77,17 @@ const Distributor = () => {
                 email: 'info@affinitybrandsus.com',
                 website: 'affinitybrandsus.com',
                 phone: '+1 (516) 385-1041',
+            },
+            
+        ],
+        'virginia': [
+            {
+                title: "Old Town Cellars",
+                content: "7240C Telegraph Square Drive, Lorton VA 22079",
+                phone: '571-303-8525',
+                logo: affinity,
+                website: 'saregoimports.com',
+                
             },
             
         ],

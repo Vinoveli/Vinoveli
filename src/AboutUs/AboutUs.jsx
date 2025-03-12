@@ -33,62 +33,7 @@ Join us at Vinoveli as we continue to bridge Georgia’s ancient winemaking trad
 
       <AboutUsPictures/>
       
-      <div style={{ textAlign: 'left', width:'80%', margin:'auto' }}>
-        <h1
-          style={{
-            fontSize: '50px',
-            color:'rgba(114, 51, 38, 1)',
-            fontFamily: '"STIX Two Text", serif',
-            fontWeight:'200',
-            marginTop:'5rem'
-          }}
-        >
-          Team
-        </h1>
-
-        <div style={{ display: 'flex', justifyContent: 'left', flexWrap: 'wrap', gap: '20px' }}>
-          {/* Card 1 */}
-          <div style={{ width: '250px', textAlign: 'center' }}>
-            <img
-              src="https://via.placeholder.com/200"
-              alt="Placeholder 1"
-              style={{ width: '250px', height: '150px', objectFit: 'cover' }}
-            />
-            <div style={{ marginTop: '10px' }}>
-             <p style={{color:'rgba(114, 51, 38, 1)',}}>Name: Mark Johnson</p>
-
-              <p>CEO</p>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div style={{ width: '250px', textAlign: 'center' }}>
-            <img
-              src="https://via.placeholder.com/200"
-              alt="Placeholder 2"
-              style={{ width: '250px', height: '150px', objectFit: 'cover' }}
-            />
-            <div style={{ marginTop: '10px' }}>
-              <p style={{color:'rgba(114, 51, 38, 1)',}}>Name: Mark Johnson</p>
-
-              <p>CFO</p>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div style={{ width: '250px', textAlign: 'center' }}>
-            <img
-              src="https://via.placeholder.com/200"
-              alt="Placeholder 3"
-              style={{ width: '250px', height: '150px', objectFit: 'cover' }}
-            />
-            <div style={{ marginTop: '10px' }}>
-              <p style={{color:'rgba(114, 51, 38, 1)',}}>Name: Mark Johnson</p>
-              <p>MEGVINE</p>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </>
   );
 };

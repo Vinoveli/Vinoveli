@@ -1,11 +1,9 @@
 import React from 'react';
-import './PartnersMain.css'; // We will use a CSS file for styling
-import MsWalker from '../assets/UntitledDesign.png';
+import './PartnersMain.css'; // Ensure this file includes styles
+import newMsWalker from '../assets/new-logo.png';
 import partner2 from '../assets/new-logo-new.png';
 import partner4 from '../assets/new-logo3.png';
 import partner3 from '../assets/partner3.png';
-
-import newMsWalker from '../assets/new-logo.png';
 
 const PartnersMain = () => {
   return (
@@ -16,20 +14,16 @@ const PartnersMain = () => {
           <div className='Partners-Partners'>
             {/* First Row of Partners */}
             <div className='Partners-row'>
-              <a href="https://mswalker.com" className="partner-link">
+              <a href="https://mswalker.com" className="partner-link partner-box">
                 <img src={newMsWalker} alt="Ms. Walker" className="partner-logo" />
               </a>
+              <div className="partner-box">
                 <img src={partner4} alt="Partner 2" className="partner-logo" />
-              <a href="https://affinitybrandsus.com" className="partner-link">
+              </div>
+              <a href="https://affinitybrandsus.com" className="partner-link partner-box">
                 <img src={partner3} alt="Partner 3" className="partner-logo" />
               </a>
             </div>
-            {/* Second Row with Partner2 */}
-            {/* <div className='Partners-row single'>
-              <a href="/partner/4" className="partner-link">
-                <img src={partner2} alt="Partner 4" className="partner-logo" />
-              </a>
-            </div> */}
           </div>
         </div>
       </div>
